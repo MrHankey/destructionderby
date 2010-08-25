@@ -1,0 +1,18 @@
+   used preset configuration: presetcfg=rc_presets_pc.ini
+   ERROR: key 'ext_dae' was not registered, call RegisterKey() before using the key
+   
+   -------------------------------------------------------
+   Path=''
+   File='repair.dae'
+   Loading XML...
+   Finished loading XML.
+   
+   
+   
+   Processing 'CryExportNode_repair-CGF-repair-DoExport-MergeNodes'
+   
+   Finished loading 'F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Mods\DestructionDerby\Game\Objects\repair.dae'
+   
+   17 error(s) in physical geometry
+   
+   1 file processed.

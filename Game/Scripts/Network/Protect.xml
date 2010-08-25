@@ -1,0 +1,136 @@
+<protect>
+	<add level="1" file="Game/GameData.pak"/>
+  <add level="1" file="Game/LowSpec/LowSpec.pak"/>
+  <add level="1" file="Game/Animations.pak"/>
+	<add level="1" file="Game/Music.pak"/>
+	<add level="1" file="Game/Objects.pak"/>
+	<add level="1" file="Game/Shaders.pak"/>
+	<add level="1" file="Game/Sounds.pak"/>
+	<add level="1" file="Game/Textures.pak"/>
+  <add level="1" file="Bin32/Cry3dEngine.dll"/>
+  <add level="1" file="Bin32/CryAction.dll"/>
+  <add level="1" file="Bin32/CryAISystem.dll"/>
+  <add level="1" file="Bin32/CryAnimation.dll"/>
+  <add level="1" file="Bin32/CryEntitySystem.dll"/>
+  <add level="1" file="Bin32/CryFont.dll"/>
+  <add level="1" file="Bin32/CryGame.dll"/>
+  <add level="1" file="Bin32/CryInput.dll"/>
+  <add level="1" file="Bin32/CryMovie.dll"/>
+  <add level="1" file="Bin32/CryNetwork.dll"/>
+  <add level="1" file="Bin32/CryPhysics.dll"/>
+  <add level="1" file="Bin32/CryRenderD3D9.dll"/>
+  <add level="1" file="Bin32/CryRenderD3D10.dll"/>
+  <add level="1" file="Bin32/CryRenderNULL.dll"/>
+  <add level="1" file="Bin32/CryScriptSystem.dll"/>
+  <add level="1" file="Bin32/CrySoundSystem.dll"/>
+  <add level="1" file="Bin32/CrySystem.dll"/>
+  <add level="1" file="Bin64/Cry3dEngine.dll"/>
+  <add level="1" file="Bin64/CryAction.dll"/>
+  <add level="1" file="Bin64/CryAISystem.dll"/>
+  <add level="1" file="Bin64/CryAnimation.dll"/>
+  <add level="1" file="Bin64/CryEntitySystem.dll"/>
+  <add level="1" file="Bin64/CryFont.dll"/>
+  <add level="1" file="Bin64/CryGame.dll"/>
+  <add level="1" file="Bin64/CryInput.dll"/>
+  <add level="1" file="Bin64/CryMovie.dll"/>
+  <add level="1" file="Bin64/CryNetwork.dll"/>
+  <add level="1" file="Bin64/CryPhysics.dll"/>
+  <add level="1" file="Bin64/CryRenderD3D9.dll"/>
+  <add level="1" file="Bin64/CryRenderD3D10.dll"/>
+  <add level="1" file="Bin64/CryRenderNULL.dll"/>
+  <add level="1" file="Bin64/CryScriptSystem.dll"/>
+  <add level="1" file="Bin64/CrySoundSystem.dll"/>
+  <add level="1" file="Bin64/CrySystem.dll"/> 
+  <add level="1" folder="Game/Scripts/GameRules" recurse="1"/>
+  <add level="1" folder="Game/Scripts/Entities/Items/xml" recurse="1"/>
+  <add level="1" folder="Game/Scripts" recurse="1"/>
+	<add level="1" folder="Game/Entities" recurse="1"/>
+  <add level="1" folder="Game/Objects/Characters/Human/Asian/Nanosuit" recurse="1"/>
+  <add level="1" folder="Game/Objects/Characters/Human/US/Nanosuit" recurse="1"/>
+	<add level="1" folder="Game/Levels/Multiplayer/IA" recurse="2"/>
+	<add level="1" folder="Game/Levels/Multiplayer/PS" recurse="2"/>
+  <add level="1" folder="Game/Libs" recurse="1"/>
+  <add level="2" folder="Game/Shaders" recurse="1"/>
+  <add level="2" folder="Game/Textures" recurse="1"/>
+  <add level="3" folder="Game/Objects" recurse="1"/>
+  <add level="2" folder="Game/Animations" recurse="1"/>
+  <add level="3" folder="Game/Fonts" recurse="1"/>
+  <add level="3" folder="Game/Materials" recurse="1"/>
+  <add level="3" folder="Game/Music" recurse="1"/>
+  <add level="3" folder="Game/Prefabs" recurse="1"/>
+  <add level="3" folder="Game/Sounds" recurse="1"/>
+  <exclude level="1" file="Game/config/config.dat"/>
+  <exclude level="1" folder="Game/Shaders/Cache" recurse="1"/>
+  <exclude level="1" file="Bin32/Crysis.exe"/>
+  <exclude level="1" file="Bin64/Crysis.exe"/>
+  <exclude level="1" folder="Game/Libs/Actiongraphs" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/Config" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/Dialogs" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/EquipmentPacks" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/Flownodes04" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/Gametokens" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/Musiclogic" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/Reverbpresets" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/Soundmoods" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/ui" recurse="1"/>
+  <exclude level="1" folder="Game/Libs/Smartobjects" recurse="1"/>
+  <exclude level="1" wildcard="*/tags.txt"/>
+  <exclude level="1" wildcard="game/levels/multiplayer/*.dds"/>
+  <exclude level="1" wildcard="*.bak"/>
+  <exclude level="1" wildcard="*.bak2"/>
+  <exclude level="1" wildcard="*.tmd"/>
+  <exclude level="1" wildcard="*.cry"/>
+  <exclude level="1" wildcard="*.lyr"/>
+  <exclude level="1" file="Game/Scripts/Network/Help.txt"/>
+  <exclude level="1" folder="Game/Objects/Characters/Human/Asian/Officer" recurse="1"/>
+  <exclude level="1" folder="Game/Objects/Characters/Human/Asian/Pilot" recurse="1"/>
+  <exclude level="1" folder="Game/Objects/Characters/Human/Asian/sailor" recurse="1"/>
+  <exclude level="1" folder="Game/Objects/Characters/Human/US/Scientist" recurse="1"/>
+  <exclude level="1" file="Game/Objects/Library/Architecture/Mobile_Camp_Structures/Chinese_Barrack_Container/chinese_decals.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Architecture/Mobile_Camp_Structures/Chinese_Barrack_Container/explosives_NK.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Architecture/Multiplayer/probs/exitsigns/exitsigns.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Architecture/Nodule/buildings/mine_buildings_signs.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Architecture/research_dome/redstar.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Architecture/Tents/Asian/tent_side2.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Architecture/Village/school_wall_portait.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Lights/Paper_Lantern/paper_lanter_2.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Electronic_Devices/Consoles/rescue_download_screen.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Flags/northkorean.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Gasstation/signs.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Household/decoration/asianbooks.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Household/decoration/lantern1_pennant.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Household/decoration/picture3.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Household/Paper/paper_a.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/office_items/folder.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Signs/advertising_sign_b.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Signs/advertising_sign_c.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Signs/housenumber.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Signs/Korean_Leader.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Signs/mixedSigns.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Props/Trashbins/trash_container_big_decals.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Storage/Crates/hurricane_case/hurricane_case_label.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Vehicles/asian_transport_helicopter/transport_helicopter_decals.dds"/>
+  <exclude level="1" file="Game/Objects/Library/Vehicles/Cars/car_a_spec.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/Asian_AAA/asian_AAA_turret.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/Asian_AAA/asian_AAA_turret_low.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/Asian_Fighter/asian_fighter.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/Asian_Helicopter/asian_helicopter_main.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/asian_helicopter_low_budget/asian_helicopter_main.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/Asian_patrolboat/decal_signs.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/Asian_Tank/asian_tank_skirt_camo.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/Asian_Tank/asian_tank_skirt_camo_spec.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/Asian_Truck_B/Asian_Truck_B_main.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/Civ_car1/decals_police.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/LTV/asian_ltv_main.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/LTV/asian_ltv_main_spec.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/US_APC/us_apc_skirt_armors_asian.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/US_Hovercraft_B/nk_flag.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/US_Tank/us_tank_skirt_armor_plate_asian.dds"/>
+  <exclude level="1" file="Game/Objects/Vehicles/US_Vtol/vtol_decal_nk.dds"/>
+  <exclude level="1" file="Game/Objects/Weapons/US/Hurricane/hurricane41.dds"/>
+  <exclude level="1" file="Game/Objects/Weapons/US/Hurricane/hurricane_spec47.dds"/>
+  <exclude level="1" file="Game/Objects/Weapons/US/LAW/textures/law_scope.dds"/>
+  <exclude level="1" file="Game/Objects/Weapons/US/LAW/textures/law_scope_low.dds"/>
+  <exclude level="1" file="Game/Textures/Decal/signs/nk_star.dds"/>
+  <exclude level="1" file="Game/Textures/Sprites/paper_tiled.dds"/>
+</protect>

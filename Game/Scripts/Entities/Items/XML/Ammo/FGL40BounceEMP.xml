@@ -1,0 +1,51 @@
+<ammo name="fgl40bounceemp" class="Projectile">
+	<geometry>
+    <firstperson name="objects/weapons/us/emp_grenade/emp_grenade.cgf" scale="2"/>
+    <thirdperson name="objects/weapons/us/emp_grenade/emp_grenade.cgf" scale="2"/>
+  </geometry>
+	<flags>
+		<param name="serverspawn" value="1" />
+		<param name="predictspawn" value="1" />
+	</flags>
+	<physics type="particle">
+		<param name="mass" value="11.00" />
+		<param name="speed" value="40" />
+		<param name="radius" value="0.125" />
+		
+		<param name="air_resistance" value="0" />
+		<param name="water_resistance" value="0.5" />
+		<param name="gravity" value="0, 0, -9.8" />
+		<param name="water_gravity" value="0, 0, -9.8" />
+		
+		<param name="thrust" value="0" />
+		<param name="lift" value="0" />
+		<param name="min_bounce_speed" value="8" />
+		<param name="material" value="mat_bounce_grenade" />
+		<param name="spin_random" value="720, 720, 720" />
+		
+		<param name="single_contact" value="0" />
+    <param name="traceable" value="1" />
+  </physics>
+  <explosion>
+    <param name="pressure" value="0" />
+    <param name="min_radius" value="10" />
+    <param name="max_radius" value="10" />
+    <param name="hole_size" value="0" />
+    <param name="terrain_hole_size" value="0" />
+    <param name="effect" value="expansion_fx.weapons.emp_grenade" />
+    <param name="effect_scale" value="1" />
+    <param name="type" value="emp" />
+    <param name="radialblurdist" value="0" />
+    <param name="emp_magnifier" value="1.66" />
+  </explosion>
+  <params>
+    <param name="lifetime" value="2" />
+    <param name="showtime" value="0.15" />
+    <param name="aitype"	value="grenade" />
+  </params>
+  <trail>
+    <param name="effect" value="expansion_fx.weapons.gl_trail" />
+    <param name="scale" value="0.1" />
+    <!--<param name="sound" value="sounds/physics:bullet_whiz:missile_whiz_loop" />-->
+  </trail>
+</ammo>

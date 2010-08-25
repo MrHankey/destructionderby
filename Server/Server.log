@@ -1,0 +1,1891 @@
+BackupNameAttachment=" Build(6729) Date(24 Aug 2010) Time(17 38 44)"  -- used by backup system
+ 
+Log Started at Tuesday, August 24, 2010 17:38:44
+Running 32 bit version
+Executable: F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Bin32\CrysisWarsDedicatedServer.exe
+FileVersion: 1.1.1.6729
+ProductVersion: 1.1.1.6729
+Using STLport C++ Standard Library implementation
+ 
+Added MOD directory <Mods\DestructionDerby\> to CryPak
+--- CPU detection ---
+Total number of logical processors: 8
+Number of available logical processors: 8
+
+Processor 0:
+CPU: Intel Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz
+Family: 6, Model: 10, Stepping: 5
+FPU: On-Chip
+CPU Speed (estimated): 2666.696346 MHz
+MMX: not present
+SSE: present
+3DNow!: not present
+Serial number not present or disabled
+
+Processor 1:
+CPU: Intel Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz
+Family: 6, Model: 10, Stepping: 5
+FPU: On-Chip
+CPU Speed (estimated): 2666.738558 MHz
+MMX: not present
+SSE: present
+3DNow!: not present
+Serial number not present or disabled
+
+Processor 2:
+CPU: Intel Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz
+Family: 6, Model: 10, Stepping: 5
+FPU: On-Chip
+CPU Speed (estimated): 2666.735725 MHz
+MMX: not present
+SSE: present
+3DNow!: not present
+Serial number not present or disabled
+
+Processor 3:
+CPU: Intel Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz
+Family: 6, Model: 10, Stepping: 5
+FPU: On-Chip
+CPU Speed (estimated): 2666.734971 MHz
+MMX: not present
+SSE: present
+3DNow!: not present
+Serial number not present or disabled
+
+Processor 4:
+CPU: Intel Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz
+Family: 6, Model: 10, Stepping: 5
+FPU: On-Chip
+CPU Speed (estimated): 2666.707013 MHz
+MMX: not present
+SSE: present
+3DNow!: not present
+Serial number not present or disabled
+
+Processor 5:
+CPU: Intel Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz
+Family: 6, Model: 10, Stepping: 5
+FPU: On-Chip
+CPU Speed (estimated): 2666.736255 MHz
+MMX: not present
+SSE: present
+3DNow!: not present
+Serial number not present or disabled
+
+Processor 6:
+CPU: Intel Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz
+Family: 6, Model: 10, Stepping: 5
+FPU: On-Chip
+CPU Speed (estimated): 2666.737456 MHz
+MMX: not present
+SSE: present
+3DNow!: not present
+Serial number not present or disabled
+
+Processor 7:
+CPU: Intel Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz
+Family: 6, Model: 10, Stepping: 5
+FPU: On-Chip
+CPU Speed (estimated): 2666.661406 MHz
+MMX: not present
+SSE: present
+3DNow!: not present
+Serial number not present or disabled
+
+Total number of system cores: 4
+Number of cores available to process: 4
+---------------------
+Windows Vista 32 bit SP 2 (build 6.0.6002)
+System language: German
+Windows Directory: "C:\Windows"
+Prerequisites...
+* Installation of KB940105 hotfix required: no! (either not needed or already installed)
+Local time is 17:38:45 08/24/10, system running for 240 minutes
+3060MB physical memory installed, 1675MB available, 2047MB virtual memory installed, 45 percent of memory in use
+PageFile usage: 27MB, Working Set: 6MB, Peak PageFile usage: 28MB,
+Current display mode is 1280x1024x32, VGA
+IBM enhanced (101/102-key) keyboard and 16+ button mouse installed
+--------------------------------------------------------------------------------
+Stream Engine Initialization
+Network initialization
+[net] using iocp socket io management
+Physics initialization
+MovieSystem initialization skipped for dedicated server
+Renderer initialization
+Console initialization
+Time initialization
+Font initialization
+AI initialization
+Initializing Animation System
+Initializing 3D Engine
+Script System Initialization
+Entity system initialization
+Initializing AI System
+[VehicleSystem]: got 20 vehicle implementations
+[PlayerProfiles] Login of user 'raphi' successful.
+[PlayerProfiles] Found 1 profiles.
+   Profile 0 : 'default'
+[GameProfiles]: Successfully activated profile 'default' for user 'raphi'
+registering explosion and shapes with physics system...
+    $3log_Verbosity = $68 $5[DUMPTODISK]$4
+    $3sv_servername = $6DD Test $5[DUMPTODISK]$4
+    $3sv_password = $6 $5[DUMPTODISK]$4
+    $3net_enable_voice_chat = $61 $5[]$4
+    $3sv_cheatprotection = $60 $5[]$4
+    $3sv_maxplayers = $616 $5[DUMPTODISK]$4
+    $3sv_lanonly = $60 $5[DUMPTODISK]$4
+    $3g_roundlimit = $63 $5[]$4
+    $3g_roundtime = $630 $5[]$4
+    $3g_tk_punish = $61 $5[]$4
+    $3g_tk_punish_limit = $65 $5[]$4
+    $3g_timelimit = $60 $5[]$4
+    $3g_MPDeathCam = $60 $5[]$4
+    $3g_useHitSoundFeedback = $61 $5[]$4
+    $3g_scorelimit = $6150 $5[]$4
+    $3hud_alternateCrosshairSpread = $61 $5[]$4
+    $3e_cbuffer = $61 $5[]$4
+    $3es_OnDemandPhysics = $60 $5[]$4
+    $3r_CullGeometryForLights = $61 $5[]$4
+    $3e_vegetation_static_instancing = $60 $5[]$4
+    $3r_TerrainAO_FadeDist = $61 $5[]$4
+    $3e_gsm_range = $63 $5[]$4
+    $3e_gsm_cache = $60 $5[]$4
+    $3e_ram_maps = $61 $5[DUMPTODISK, REQUIRE_LEVEL_RELOAD]$4
+    $3e_dissolve = $61 $5[]$4
+    $3e_particles_min_draw_pixels = $61 $5[]$4
+    $3hud_mpNamesDuration = $60 $5[]$4
+    $3sv_gamerules = $6DestructionDerby $5[]$4
+File open: Game/Scripts/Network/cvars.txt
+File open: Game/Scripts/Network/CompressionPolicy.xml
+File open: scripts/network/wrld.xml
+Loading configuration file 'diff_normal' ... 
+File open: config/diff_normal.cfg
+Loading configuration file 'multiplayer' ... 
+Loading configuration file 'multiplayer' ... 
+File open: config/multiplayer.cfg
+[net 16:38:46.131] network hostname: raphi-PC
+[Warning] $6[net 16:38:46.133] Unhandled address family in name lookup: 23
+[net 16:38:46.133]   ip:192.168.1.70
+File open: Scripts/GameRules/DestructionDerby.lua
+File open: scripts/gamerules/singleplayer.lua
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/level.pak
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/level.pak
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/level.pak
+-----------------------------------------------------
+*LOADING: Loading Level multiplayer/dd/yatm
+-----------------------------------------------------
+Opening pak file mods\destructionderby\game\levels\multiplayer\dd\yatm\level.pak
+Opening pak file mods\destructionderby\game\levels\multiplayer\dd\yatm\level.pak to mods\destructionderby\game\levels\multiplayer\dd\yatm\
+Opening pak file mods\destructionderby\game\levels\multiplayer\dd\yatm\terraintexture.pak
+Opening pak file mods\destructionderby\game\levels\multiplayer\dd\yatm\terraintexture.pak to mods\destructionderby\game\levels\multiplayer\dd\yatm\
+Deleting water waves
+Loading configuration file 'Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/Level.cfg' ... 
+Configuration file 'Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/Level.cfg' not loaded
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/LevelData.xml
+---------------------- Loading level Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM, mission 
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/LevelData.xml
+===== Loading terrain\heightmap.dat =====
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/terrain\heightmap.dat
+Loading terrain layers ...
+File open: materials/terrain/plains_dry_grass.mtl
+  Layer 0 - Default has material materials/terrain/plains_dry_grass
+ 
+  Constructing 1365 nodes (0.5 MB)  done in 0.00 sec
+===== Loading vegetation models =====
+===== Loading brush models ===== 
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid13_{0261EB62-8A74-4469-8862-DADBC16E1872}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid13_{0261EB62-8A74-4469-8862-DADBC16E1872}.cgf
+File open: editor/objects/grid.mtl
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid14_{16117377-03D6-41C5-B171-2F4C34A0C3A8}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid14_{16117377-03D6-41C5-B171-2F4C34A0C3A8}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid10_{AB79B09F-75F7-4265-AD6E-5E690FBC4944}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid10_{AB79B09F-75F7-4265-AD6E-5E690FBC4944}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid12_{57CD9558-9A10-418D-B621-6EAD4B4D0B29}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid12_{57CD9558-9A10-418D-B621-6EAD4B4D0B29}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid18_{36BF9394-E13B-49F6-80E2-DEFA96D3286C}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid18_{36BF9394-E13B-49F6-80E2-DEFA96D3286C}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid15_{B21E653D-7D9B-4180-80F9-6A4E1712D65E}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid15_{B21E653D-7D9B-4180-80F9-6A4E1712D65E}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid16_{23868E05-1550-430D-BDC1-20672E1D3106}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid16_{23868E05-1550-430D-BDC1-20672E1D3106}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid11_{70F40148-4B02-4B8A-9EB8-40E60B579547}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid11_{70F40148-4B02-4B8A-9EB8-40E60B579547}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid17_{5496CF49-F3E3-4B78-94B0-6CB3B7F1C97D}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid17_{5496CF49-F3E3-4B78-94B0-6CB3B7F1C97D}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid9_{8A43AB57-E7A0-410F-9753-D433460607B0}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid9_{8A43AB57-E7A0-410F-9753-D433460607B0}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid25_{0AA95D86-158D-4B69-B54C-CA3D16A3800C}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid25_{0AA95D86-158D-4B69-B54C-CA3D16A3800C}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid6_{6685A789-6BA9-47D7-A915-A733E145B0D3}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid6_{6685A789-6BA9-47D7-A915-A733E145B0D3}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid20_{CF39BE97-47A2-4B30-BB1E-C9DD57D1B5FF}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid20_{CF39BE97-47A2-4B30-BB1E-C9DD57D1B5FF}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid8_{F15483AB-73CA-478E-AE6E-37256DF589B2}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid8_{F15483AB-73CA-478E-AE6E-37256DF589B2}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid44_{A4A87FAE-2634-483A-9000-FD23E3B62705}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid44_{A4A87FAE-2634-483A-9000-FD23E3B62705}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid43_{6B58D8C8-8DA4-4BD8-9A76-BCC7B133FEE0}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid43_{6B58D8C8-8DA4-4BD8-9A76-BCC7B133FEE0}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid24_{215C2FDA-B39C-4650-936A-EEF0BC57AFE2}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid24_{215C2FDA-B39C-4650-936A-EEF0BC57AFE2}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid7_{CE7FB011-1487-49AE-A89D-946DBFAD7F1F}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid7_{CE7FB011-1487-49AE-A89D-946DBFAD7F1F}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid45_{FA382118-0321-4CFA-9992-045669C7689C}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid45_{FA382118-0321-4CFA-9992-045669C7689C}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid42_{9BFED32E-A32B-4D43-85DC-3485D3BE5BDA}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid42_{9BFED32E-A32B-4D43-85DC-3485D3BE5BDA}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid26_{FD26914A-AC90-410F-9C38-04389B50C77A}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid26_{FD26914A-AC90-410F-9C38-04389B50C77A}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid41_{A69AAD53-AE80-4CC7-900E-B138E355DC15}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid41_{A69AAD53-AE80-4CC7-900E-B138E355DC15}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid21_{7844A860-8DF3-4278-8149-C1F1E35A8BF0}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid21_{7844A860-8DF3-4278-8149-C1F1E35A8BF0}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid4_{8E42DE77-CE44-4194-BDDF-048D91432A30}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid4_{8E42DE77-CE44-4194-BDDF-048D91432A30}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid36_{A05FD999-1503-448A-AE1D-37E7178D8BC3}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid36_{A05FD999-1503-448A-AE1D-37E7178D8BC3}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid5_{9D4F669D-C8A7-4AC0-BC09-4226960B8755}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid5_{9D4F669D-C8A7-4AC0-BC09-4226960B8755}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid3_{94F4D2B7-83C4-4420-8944-E8D42098FDFE}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid3_{94F4D2B7-83C4-4420-8944-E8D42098FDFE}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid1_{072C0DD0-98DA-4C42-ADFF-EF36E6695721}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid1_{072C0DD0-98DA-4C42-ADFF-EF36E6695721}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid23_{D499ADE4-8C2E-431D-A3A0-29C41228881E}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid23_{D499ADE4-8C2E-431D-A3A0-29C41228881E}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid37_{9574BDF0-20E2-42EB-8E96-FBCEC79EA528}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid37_{9574BDF0-20E2-42EB-8E96-FBCEC79EA528}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid27_{22522DF8-9486-4D06-89F3-5F95B1452F5B}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid27_{22522DF8-9486-4D06-89F3-5F95B1452F5B}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid28_{5D7C3312-EC01-45BC-AA27-A69DBBAAC208}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid28_{5D7C3312-EC01-45BC-AA27-A69DBBAAC208}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid40_{D5FC2714-7ADE-4186-A43C-27567C4B1870}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid40_{D5FC2714-7ADE-4186-A43C-27567C4B1870}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid19_{6305EE1F-4FE4-4E54-BDC1-456BA29A6A5F}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid19_{6305EE1F-4FE4-4E54-BDC1-456BA29A6A5F}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid38_{036B1938-3F92-4935-A5C1-8DA2AF9B1B0D}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid38_{036B1938-3F92-4935-A5C1-8DA2AF9B1B0D}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid2_{922DE744-2633-4B8B-88EA-C6BCA4CC5868}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid2_{922DE744-2633-4B8B-88EA-C6BCA4CC5868}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid22_{DD088705-C7B6-4140-B6AE-257371BB7DF9}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid22_{DD088705-C7B6-4140-B6AE-257371BB7DF9}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid39_{E46EE750-DCCD-4210-9AA2-CF08C076FE3D}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid39_{E46EE750-DCCD-4210-9AA2-CF08C076FE3D}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid31_{DE0DA464-C43F-4D9C-8F7D-6FEDE1044AD2}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid31_{DE0DA464-C43F-4D9C-8F7D-6FEDE1044AD2}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid35_{1FDBB680-1B32-4810-ABD7-1FB0C7B03798}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid35_{1FDBB680-1B32-4810-ABD7-1FB0C7B03798}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid30_{BDD31EA1-13B5-49AC-9492-25C92959A58C}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid30_{BDD31EA1-13B5-49AC-9492-25C92959A58C}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid34_{041E5EB2-F7CB-4D2B-BD2E-EDC7881AD198}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid34_{041E5EB2-F7CB-4D2B-BD2E-EDC7881AD198}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid33_{503CA1BC-CB5A-40BE-8C32-525D3D07A80D}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid33_{503CA1BC-CB5A-40BE-8C32-525D3D07A80D}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid29_{529FBC0F-62FC-43EF-8C96-7B065A52B410}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid29_{529FBC0F-62FC-43EF-8C96-7B065A52B410}.cgf
+Loading Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid32_{AB316248-A629-46F8-AAE8-7F36AA23E4C0}.cgf
+File open: Mods/DestructionDerby/Game/Levels/Multiplayer/DD/YATM/Brush/Solid32_{AB316248-A629-46F8-AAE8-7F36AA23E4C0}.cgf
+===== Loading brush materials ===== 
+File open: materials/presets/materialtypes/clean/mat_metal.mtl
+===== Initializing terrain nodes ===== 
+===== Loading terrain\visareas.dat =====
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/terrain\visareas.dat
+File open: materials/decals/alien_blood_decal.mtl
+File open: materials/decals/alien_blood_splat1.mtl
+File open: materials/decals/alien_flesh.mtl
+File open: materials/decals/alien_hunter_decal.mtl
+File open: materials/decals/alien_hunter_freeze.mtl
+File open: materials/decals/alien_scout_freeze.mtl
+File open: materials/decals/alien_shell.mtl
+File open: materials/decals/alien_trooper_freeze.mtl
+File open: materials/decals/banana_dirt.mtl
+File open: materials/decals/beach_dirt.mtl
+File open: materials/decals/beach_dirt_b.mtl
+File open: materials/decals/blood_on_ice.mtl
+File open: materials/decals/blood_pool.mtl
+File open: materials/decals/blood_pool2.mtl
+File open: materials/decals/blood_slash.mtl
+File open: materials/decals/blood_splat1.mtl
+File open: materials/decals/blood_splat10.mtl
+File open: materials/decals/blood_splat11.mtl
+File open: materials/decals/blood_splat2.mtl
+File open: materials/decals/blood_splat3.mtl
+File open: materials/decals/blood_splat4.mtl
+File open: materials/decals/blood_splat5.mtl
+File open: materials/decals/blood_splat6.mtl
+File open: materials/decals/blood_splat7.mtl
+File open: materials/decals/blood_splat8.mtl
+File open: materials/decals/blood_splat9.mtl
+File open: materials/decals/concrete.mtl
+File open: materials/decals/concrete1.mtl
+File open: materials/decals/concrete2.mtl
+File open: materials/decals/concrete3.mtl
+File open: materials/decals/concrete4.mtl
+File open: materials/decals/concrete_plain.mtl
+File open: materials/decals/default.mtl
+File open: materials/decals/default_blast.mtl
+File open: materials/decals/earth_plowed_decal_001.mtl
+File open: materials/decals/earth_plowed_decal_002.mtl
+File open: materials/decals/earth_plowed_decal_003.mtl
+File open: materials/decals/earth_plowed_decal_004.mtl
+File open: materials/decals/earth_under_banana.mtl
+File open: materials/decals/explosion_soil.mtl
+File open: materials/decals/field_mud_water_2.mtl
+File open: materials/decals/field_mud_water_refl.mtl
+File open: materials/decals/flesh1.mtl
+File open: materials/decals/flesh2.mtl
+File open: materials/decals/footstep_sand.mtl
+File open: materials/decals/footstep_snow.mtl
+File open: materials/decals/frozen.mtl
+File open: materials/decals/frozen_harbor.mtl
+File open: materials/decals/fruit.mtl
+File open: materials/decals/glass.mtl
+File open: materials/decals/glass_b.mtl
+File open: materials/decals/ground.mtl
+File open: materials/decals/ground_dig_decal.mtl
+File open: materials/decals/ground_dig_decal_brown.mtl
+File open: materials/decals/ground_dig_decal_dark.mtl
+File open: materials/decals/ground_dig_decal_dark1.mtl
+File open: materials/decals/ground_dig_decal_light.mtl
+File open: materials/decals/ground_dig_decal_mine.mtl
+File open: materials/decals/hole_blood.mtl
+File open: materials/decals/human_body.mtl
+File open: materials/decals/ice.mtl
+File open: materials/decals/metal.mtl
+File open: materials/decals/metal2.mtl
+File open: materials/decals/metal4.mtl
+File open: materials/decals/metal_slash.mtl
+File open: materials/decals/metal_tin.mtl
+File open: materials/decals/mossy_water.mtl
+File open: materials/decals/oil_slick_spreading.mtl
+File open: materials/decals/plastic.mtl
+File open: materials/decals/road_asphalt.mtl
+File open: materials/decals/rock.mtl
+File open: materials/decals/rock_hard.mtl
+File open: materials/decals/rock_sandy.mtl
+File open: materials/decals/root.mtl
+File open: materials/decals/sand.mtl
+File open: materials/decals/sand2.mtl
+File open: materials/decals/sand3.mtl
+File open: materials/decals/sand_sea.mtl
+File open: materials/decals/shadow_test.mtl
+File open: materials/decals/shadow_test_dense.mtl
+File open: materials/decals/snow1.mtl
+File open: materials/decals/snow_melt.mtl
+File open: materials/decals/terrain_soil.mtl
+File open: materials/decals/wood.mtl
+File open: materials/decals/wood2.mtl
+File open: materials/decals/wood3.mtl
+File open: materials/decals/wood4.mtl
+File open: materials/decals/wood5.mtl
+File open: materials/decals/wood_bark.mtl
+File open: materials/decals/wood_planks.mtl
+File open: materials/decals/wood_slash.mtl
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/mission_Mission0.xml
+File open: materials/ocean/ocean.mtl
+File open: materials/ocean/ocean_bottom.mtl
+File open: materials/fog/oceaninto.mtl
+File open: materials/fog/oceanoutof.mtl
+File open: materials/fog/oceanintolowspec.mtl
+File open: materials/fog/oceanoutoflowspec.mtl
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/Mission_Mission0.xml
+File open: Scripts/Entities/DD/VehicleSpawn.lua
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+[net 16:38:48.008] Gamespy service available
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Invalid vehicle name specified!
+File access time during level loading: 0.00 seconds
+File open: Mods/DestructionDerby/Game/levels/Multiplayer/DD/YATM/ShadersList.txt
+Loading objects/weapons/us/at_mine/at_mine_tp.cgf
+File open: objects/weapons/us/at_mine/at_mine_tp.cgf
+File open: objects/weapons/us/at_mine/at_mine_tp_lod1.cgf
+Loading objects/weapons/us/at_mine/at_mine_tp_lod1.cgf
+File open: objects/weapons/us/at_mine/at_mine_tp_lod1.cgf
+-----------------------------------------------------
+*LOADING: Level multiplayer/dd/yatm loading time: 0.96 seconds
+-----------------------------------------------------
+DestructionDerby.Server:OnStartGame
+File open: Mods\DestructionDerby\\info.xml
+[net 16:38:48.827] GS Server Report : registered key timeleft
+[net 16:38:48.829] GS Server Report : StartReporting started
+ 
+   sys_spec = Custom (assuming 4)
+     r_DynTexAtlasCloudsMaxSize = 24 expected:32
+     r_DynTexMaxSize = 64 expected:80
+     r_TexAtlasSize = 1024 expected:2048
+ 
+File open: materials/sky/sky.mtl
+Server's public address is 91.52.179.228:64100
+[net 16:51:55.712] NAT cookie received 255721625
+[net 16:51:56.831] GS NAT: 0xF3E0099 Processing...connectping.
+[net 16:52:02.380] GS NAT: 0xF3E0099 Completed... success.
+File open: Mods\DestructionDerby\\info.xml
+Opening pak file game\lowspec\lowspec.pak
+Opening pak file game\lowspec\lowspec.pak to game\_server_lowspec\
+[net 16:52:02.765] GameSpy CDKey check : Client 989 authorized by server. (Validated)
+Spawn player for channel 1
+File open: Scripts/Entities/Actor/Player.lua
+File open: SCRIPTS/Entities/actor/BasicActor.lua
+File open: Animations/graphs/playerfullbody.ag
+File open: Animations/graphs/playerupperbody.xml
+CAnimationGraph::PreprocessParameterization: 0.148760 seconds
+File open: Libs/AnimationGraphTemplates/alienidleanimationcontrolled.xml
+File open: Libs/AnimationGraphTemplates/alienidletoidlenoforcestay.xml
+File open: Libs/AnimationGraphTemplates/alienmovementhanimation.xml
+File open: Libs/AnimationGraphTemplates/animationcontrolled.xml
+File open: Libs/AnimationGraphTemplates/anycharacterforcestartimmediately.xml
+File open: Libs/AnimationGraphTemplates/endmusic.xml
+File open: Libs/AnimationGraphTemplates/entityloop.xml
+File open: Libs/AnimationGraphTemplates/entitytransition.xml
+File open: Libs/AnimationGraphTemplates/fallandplay.xml
+File open: Libs/AnimationGraphTemplates/humanalive.xml
+File open: Libs/AnimationGraphTemplates/humandead.xml
+File open: Libs/AnimationGraphTemplates/humangrabbed.xml
+File open: Libs/AnimationGraphTemplates/humangrabbedpart2.xml
+File open: Libs/AnimationGraphTemplates/hunteralive.xml
+File open: Libs/AnimationGraphTemplates/hunterdead.xml
+File open: Libs/AnimationGraphTemplates/huntermovement.xml
+File open: Libs/AnimationGraphTemplates/hunteroneshot.xml
+File open: Libs/AnimationGraphTemplates/huntersignal.xml
+File open: Libs/AnimationGraphTemplates/idle.xml
+File open: Libs/AnimationGraphTemplates/idleaction.xml
+File open: Libs/AnimationGraphTemplates/idleactionghost.xml
+File open: Libs/AnimationGraphTemplates/idleactiongod.xml
+File open: Libs/AnimationGraphTemplates/idleactionppo.xml
+File open: Libs/AnimationGraphTemplates/idleghost.xml
+File open: Libs/AnimationGraphTemplates/idleintro.xml
+File open: Libs/AnimationGraphTemplates/idleoneshot.xml
+File open: Libs/AnimationGraphTemplates/idleoneshotghost.xml
+File open: Libs/AnimationGraphTemplates/idleoneshotgod.xml
+File open: Libs/AnimationGraphTemplates/idleoneshotnolookik.xml
+File open: Libs/AnimationGraphTemplates/idleoneshotppo.xml
+File open: Libs/AnimationGraphTemplates/idlesignal.xml
+File open: Libs/AnimationGraphTemplates/idlesignalghost.xml
+File open: Libs/AnimationGraphTemplates/idlesignalgod.xml
+File open: Libs/AnimationGraphTemplates/idlesignalplayer.xml
+File open: Libs/AnimationGraphTemplates/idlesignalplayeranimation.xml
+File open: Libs/AnimationGraphTemplates/idlesignalppo.xml
+File open: Libs/AnimationGraphTemplates/idlespinonspot.xml
+File open: Libs/AnimationGraphTemplates/idlespinonspotghost.xml
+File open: Libs/AnimationGraphTemplates/idletoidle.xml
+File open: Libs/AnimationGraphTemplates/idletoidleghost.xml
+File open: Libs/AnimationGraphTemplates/idletoidlegod.xml
+File open: Libs/AnimationGraphTemplates/idletoidleppo.xml
+File open: Libs/AnimationGraphTemplates/idletomovement.xml
+File open: Libs/AnimationGraphTemplates/idletomovementclamped.xml
+File open: Libs/AnimationGraphTemplates/idleturn.xml
+File open: Libs/AnimationGraphTemplates/invehicle.xml
+File open: Libs/AnimationGraphTemplates/invehiclegameupdate.xml
+File open: Libs/AnimationGraphTemplates/invehicleidletoidle.xml
+File open: Libs/AnimationGraphTemplates/invehiclenullnode.xml
+File open: Libs/AnimationGraphTemplates/invehicleoneshot.xml
+File open: Libs/AnimationGraphTemplates/jumpland.xml
+File open: Libs/AnimationGraphTemplates/jumploop.xml
+File open: Libs/AnimationGraphTemplates/jumpmain.xml
+File open: Libs/AnimationGraphTemplates/locooneshot.xml
+File open: Libs/AnimationGraphTemplates/manualupdateidle.xml
+File open: Libs/AnimationGraphTemplates/movement.xml
+File open: Libs/AnimationGraphTemplates/movementanimation.xml
+File open: Libs/AnimationGraphTemplates/movementdecoupled.xml
+File open: Libs/AnimationGraphTemplates/movementghost.xml
+File open: Libs/AnimationGraphTemplates/movementtoidle.xml
+File open: Libs/AnimationGraphTemplates/movementtransition.xml
+File open: Libs/AnimationGraphTemplates/musicmood.xml
+File open: Libs/AnimationGraphTemplates/musicstinger.xml
+File open: Libs/AnimationGraphTemplates/musictheme.xml
+File open: Libs/AnimationGraphTemplates/navso.xml
+File open: Libs/AnimationGraphTemplates/notnullstate.xml
+File open: Libs/AnimationGraphTemplates/oneshot.xml
+File open: Libs/AnimationGraphTemplates/oneshotghost.xml
+File open: Libs/AnimationGraphTemplates/oneshotgod.xml
+File open: Libs/AnimationGraphTemplates/oneshotnolookik.xml
+File open: Libs/AnimationGraphTemplates/simplealienalive.xml
+File open: Libs/AnimationGraphTemplates/simplealienanimation.xml
+File open: Libs/AnimationGraphTemplates/simplealiendead.xml
+File open: Libs/AnimationGraphTemplates/specialanimation.xml
+File open: Libs/AnimationGraphTemplates/sprintdecoupled.xml
+File open: Libs/AnimationGraphTemplates/stancetransidle.xml
+File open: Libs/AnimationGraphTemplates/stancetransidlerev.xml
+File open: Libs/AnimationGraphTemplates/stancetransidletomove.xml
+File open: Libs/AnimationGraphTemplates/stancetransmove.xml
+File open: Libs/AnimationGraphTemplates/stancetransmoverev.xml
+File open: Libs/AnimationGraphTemplates/stancetransmovetoidle.xml
+File open: Libs/AnimationGraphTemplates/swimidle.xml
+File open: Libs/AnimationGraphTemplates/swimmovement.xml
+File open: Libs/AnimationGraphTemplates/swimtransition.xml
+File open: Libs/AnimationGraphTemplates/tentaclealienalive.xml
+File open: Libs/AnimationGraphTemplates/tentaclealiendead.xml
+File open: Libs/AnimationGraphTemplates/tentaclealienfire.xml
+File open: Libs/AnimationGraphTemplates/tentaclealiengeneric.xml
+File open: Libs/AnimationGraphTemplates/tentaclealienidle.xml
+File open: Libs/AnimationGraphTemplates/tentaclealienidletoidle.xml
+File open: Libs/AnimationGraphTemplates/tentaclealienidletoidleghost.xml
+File open: Libs/AnimationGraphTemplates/tentaclealienmelee.xml
+File open: Libs/AnimationGraphTemplates/tentaclealienmovement-new.xml
+File open: Libs/AnimationGraphTemplates/tentaclealienmovement.xml
+File open: Libs/AnimationGraphTemplates/tentaclealienmovementtransition.xml
+File open: Libs/AnimationGraphTemplates/trooperjumpstart.xml
+File open: Libs/AnimationGraphTemplates/uboneshotnolookik.xml
+File open: Libs/AnimationGraphTemplates/upperbodyloop.xml
+File open: Libs/AnimationGraphTemplates/upperbodynothing.xml
+File open: Libs/AnimationGraphTemplates/upperbodyoneshot.xml
+File open: Libs/AnimationGraphTemplates/upperbodytransition.xml
+File open: Libs/AnimationGraphTemplates/vehicleexitfallloop.xml
+File open: Libs/AnimationGraphTemplates/vehicleexitfallstart.xml
+File open: Libs/AnimationGraphTemplates/vehicletransition.xml
+File open: Libs/AnimationGraphTemplates/vehicletransitionrange.xml
+File open: Libs/AnimationGraphTemplates/walktoidle.xml
+File open: Libs/AnimationGraphTemplates/zerog.xml
+CAnimationGraph::PreprocessTemplates: 0.308680 seconds
+AnimGraph: 1100 duplicate state nodes removed
+Similar state compression saved 6488 bytes
+File open: objects/characters/human/us/nanosuit/nanosuit_us_multiplayer.cdf
+Loading Character objects/characters/human/us/nanosuit/nanosuit_us_lower.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_us_lower.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_us_lower_lod1.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_us_lower_lod2.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_us.mtl
+Loading Character objects/characters/human/us/nanosuit/nanosuit_us_upper.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_us_upper.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_us_upper_lod1.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_us_upper_lod2.chr
+Loading Character objects/characters/human/us/nanosuit/nanosuit_helm_simple.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_helm_simple.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_helm_simple_lod1.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_helm_simple_lod2.chr
+File open: objects/characters/human/us/nanosuit/nanosuit_helm_mask.mtl
+Loading objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf
+File open: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf
+File open: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.mtl
+Loading Character objects/weapons/arms_global/arms_nanosuit_us.chr
+File open: objects/weapons/arms_global/arms_nanosuit_us.chr
+File open: objects/weapons/arms_global/arms_nanosuit_us.mtl
+Loading Character objects/weapons/us/nw/nw_arms_fp.chr
+File open: objects/weapons/us/nw/nw_arms_fp.chr
+File open: objects/weapons/us/nw/nw_arms_fp.cal
+File open: objects/weapons/us/nw/nw_arms_fp.cal
+File open: animations/1st_person/weapons/us/nw/nw.dba
+File open: objects\weapons\us\nw\nw_arms_EventDataBase.animevents
+  80 animation-assets loaded (total assets: 74)
+Loading Character objects/weapons/us/frag_grenade/frag_grenade_left.chr
+File open: objects/weapons/us/frag_grenade/frag_grenade_left.chr
+File open: objects/weapons/us/frag_grenade/frag_grenade_left.cal
+File open: objects/weapons/us/frag_grenade/frag_grenade_left.cal
+File open: animations/1st_person/weapons/us/frag_grenade/left/left.dba
+File open: objects\weapons\us\frag_grenade\frag_grenade_left_EventDataBase.animevents
+  29 animation-assets loaded (total assets: 101)
+Loading objects/weapons/us/frag_grenade/frag_grenade_tp.cgf
+File open: objects/weapons/us/frag_grenade/frag_grenade_tp.cgf
+File open: objects/weapons/us/frag_grenade/frag_grenade_tp_lod1.cgf
+Loading objects/weapons/us/frag_grenade/frag_grenade_tp_lod1.cgf
+File open: objects/weapons/us/frag_grenade/frag_grenade_tp_lod1.cgf
+Loading objects/weapons/us/smoke grenade/smoke_grenade_tp.cgf
+File open: objects/weapons/us/smoke grenade/smoke_grenade_tp.cgf
+File open: objects/weapons/us/smoke grenade/smoke_grenadepb.mtl
+Loading objects/weapons/attachments/reflex_rifle/reflex_rifle_fp.cgf
+File open: objects/weapons/attachments/reflex_rifle/reflex_rifle_fp.cgf
+File open: objects/weapons/attachments/reflex_rifle/reflex_rifle.mtl
+Loading objects/weapons/attachments/reflex_rifle/reflex_rifle_tp.cgf
+File open: objects/weapons/attachments/reflex_rifle/reflex_rifle_tp.cgf
+File open: objects/weapons/attachments/reflex_rifle/reflex_rifle_tp_lod1.cgf
+Loading objects/weapons/attachments/reflex_rifle/reflex_rifle_tp_lod1.cgf
+File open: objects/weapons/attachments/reflex_rifle/reflex_rifle_tp_lod1.cgf
+File open: objects/weapons/attachments/reflex_rifle/reflex_rifle_tp_lod2.cgf
+Loading objects/weapons/attachments/reflex_rifle/reflex_rifle_tp_lod2.cgf
+File open: objects/weapons/attachments/reflex_rifle/reflex_rifle_tp_lod2.cgf
+Loading Character objects/weapons/us/scar/scar_l-c_fp.chr
+File open: objects/weapons/us/scar/scar_l-c_fp.chr
+File open: objects/weapons/us/scar/new_scar_final.mtl
+File open: objects/weapons/us/scar/scar_l-c_fp.cal
+File open: objects/weapons/us/scar/scar_l-c_fp.cal
+File open: animations/1st_person/weapons/us/scar/scar.dba
+File open: objects\weapons\us\scar\Scar_EventDataBase.animevents
+  64 animation-assets loaded (total assets: 157)
+Loading objects/weapons/us/scar/scar_l-c_tp.cgf
+File open: objects/weapons/us/scar/scar_l-c_tp.cgf
+File open: objects/weapons/us/scar/new_scar_tp.mtl
+Loading objects/weapons/shells/scar_gl_shell.cgf
+File open: objects/weapons/shells/scar_gl_shell.cgf
+File open: objects/weapons/shells/scar_gl_shell.mtl
+Loading objects/weapons/attachments/magazine_rifle/magazine_rifle_fp.cgf
+File open: objects/weapons/attachments/magazine_rifle/magazine_rifle_fp.cgf
+File open: objects/weapons/attachments/magazine_rifle/magazine_rifle.mtl
+Loading objects/weapons/attachments/magazine_rifle/magazine_rifle_tp.cgf
+File open: objects/weapons/attachments/magazine_rifle/magazine_rifle_tp.cgf
+Loading Character objects/weapons/us/socom/socom_left_fp.chr
+File open: objects/weapons/us/socom/socom_left_fp.chr
+File open: objects/weapons/us/socom/socom.mtl
+File open: objects/weapons/us/socom/socom_left_fp.cal
+File open: objects/weapons/us/socom/socom_left_fp.cal
+File open: animations/1st_person/weapons/us/socom/socom.dba
+File open: objects\weapons\us\socom\socom_left_EventDataBase.animevents
+  25 animation-assets loaded (total assets: 180)
+Loading Character objects/weapons/us/socom/socom_right_fp.chr
+File open: objects/weapons/us/socom/socom_right_fp.chr
+File open: objects/weapons/us/socom/socom_right_fp.cal
+File open: objects/weapons/us/socom/socom_right_fp.cal
+File open: objects\weapons\us\socom\socom_right_EventDataBase.animevents
+  65 animation-assets loaded (total assets: 238)
+Loading objects/weapons/us/socom/socom_tp.cgf
+File open: objects/weapons/us/socom/socom_tp.cgf
+Loading objects/effects/tracer_standard_new.cgf
+File open: objects/effects/tracer_standard_new.cgf
+File open: objects/effects/tracer_standard.mtl
+Loading objects/effects/tracer_standard_red_new.cgf
+File open: objects/effects/tracer_standard_red_new.cgf
+Loading objects/weapons/attachments/scope_assault/scope_assault_fp.cgf
+File open: objects/weapons/attachments/scope_assault/scope_assault_fp.cgf
+File open: objects/weapons/attachments/scope_assault/scope_assault.mtl
+Loading objects/weapons/attachments/scope_assault/scope_assault_tp.cgf
+File open: objects/weapons/attachments/scope_assault/scope_assault_tp.cgf
+File open: objects/weapons/attachments/scope_assault/scope_assault_tp_lod1.cgf
+Loading objects/weapons/attachments/scope_assault/scope_assault_tp_lod1.cgf
+File open: objects/weapons/attachments/scope_assault/scope_assault_tp_lod1.cgf
+File open: objects/weapons/attachments/scope_assault/scope_assault_tp_lod2.cgf
+Loading objects/weapons/attachments/scope_assault/scope_assault_tp_lod2.cgf
+File open: objects/weapons/attachments/scope_assault/scope_assault_tp_lod2.cgf
+Loading objects/weapons/attachments/silencer_rifle/silencer_rifle_fp.cgf
+File open: objects/weapons/attachments/silencer_rifle/silencer_rifle_fp.cgf
+File open: objects/weapons/attachments/silencer_rifle/silencer_rifle.mtl
+Loading objects/weapons/attachments/silencer_rifle/silencer_rifle_tp.cgf
+File open: objects/weapons/attachments/silencer_rifle/silencer_rifle_tp.cgf
+File open: objects/characters/human/us/nanosuit/nanosuit_us_speed.mtl
+File open: objects/characters/human/us/nanosuit/nanosuit_us_helmet_speed.mtl
+File open: objects/weapons/arms_global/arms_nanosuit_us_speed.mtl
+File open: objects/characters/human/us/nanosuit/nanosuit_us_strength.mtl
+File open: objects/characters/human/us/nanosuit/nanosuit_us_helmet_strength.mtl
+File open: objects/weapons/arms_global/arms_nanosuit_us_strength.mtl
+File open: objects/characters/human/us/nanosuit/nanosuit_us_cloak.mtl
+File open: objects/characters/human/us/nanosuit/nanosuit_us_helmet_cloak.mtl
+File open: objects/weapons/arms_global/arms_nanosuit_us_cloak.mtl
+File open: objects/characters/human/us/nanosuit/nanosuit_us.mtl
+File open: objects/characters/human/us/nanosuit/nanosuit_us_helmet.mtl
+File open: objects/weapons/arms_global/arms_nanosuit_us.mtl
+File open: objects/characters/human/us/nanosuit/nanosuit_us_invulnerability.mtl
+File open: objects/characters/human/us/nanosuit/nanosuit_us_helmet_invulnerability.mtl
+File open: objects/weapons/arms_global/arms_nanosuit_us_invulnerability.mtl
+DD:SpawnPlayer
+CGameStats::NewPlayer 0000FFFC 
+[net 16:52:16.596] OnWitnessDeclared for channel 989, witness 0
+[net 16:52:16.599] OnWitnessDeclared for channel 989, witness 65532
+[net 16:52:16.601] GameSpy Stats : AddPlayer 1 65532
+[net 16:52:16.604] GS Server Report : registered key rank_
+File open: Scripts/Entities/Vehicles/VehiclePool.lua
+File open: Scripts/Entities/Vehicles/VehicleBase.lua
+File open: Scripts/Utils/Math.lua
+File open: Scripts/Entities/Vehicles/VehicleSeat.lua
+File open: Scripts/Entities/Vehicles/VehicleBaseAI.lua
+Executing Vehiclepool..
+File open: Scripts/Entities/Vehicles/Implementations/Alien_warrior.lua
+File open: Scripts/Entities/Vehicles/Implementations/Asian_aaa.lua
+File open: Scripts/Entities/Vehicles/Implementations/Asian_helicopter.lua
+File open: Scripts/Entities/Vehicles/Implementations/Asian_ltv.lua
+File open: Scripts/Entities/Vehicles/Implementations/Asian_patrolboat.lua
+File open: Scripts/Entities/Vehicles/Implementations/Asian_tank.lua
+File open: Scripts/Entities/Vehicles/Implementations/Asian_truck.lua
+File open: Scripts/Entities/Vehicles/Implementations/Civ_car1.lua
+File open: Scripts/Entities/Vehicles/Implementations/Civ_speedboat.lua
+File open: Scripts/Entities/Vehicles/Implementations/US_apc.lua
+File open: Scripts/Entities/Vehicles/Implementations/US_asv.lua
+File open: Scripts/Entities/Vehicles/Implementations/US_hovercraft.lua
+File open: Scripts/Entities/Vehicles/Implementations/US_ltv.lua
+File open: Scripts/Entities/Vehicles/Implementations/US_smallboat.lua
+File open: Scripts/Entities/Vehicles/Implementations/US_tank.lua
+File open: Scripts/Entities/Vehicles/Implementations/US_transportVTOL.lua
+File open: Scripts/Entities/Vehicles/Implementations/US_vtol.lua
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Loading CGA objects/vehicles/civ_car1/civ_car.cga
+File open: objects/vehicles/civ_car1/civ_car.cga
+File open: objects/vehicles/civ_car1/civ_car.cga
+Loading objects/vehicles/civ_car1/civ_car.cga
+File open: objects/vehicles/civ_car1/civ_car.cga
+File open: objects/vehicles/civ_car1/civ_car_color_variations.mtl
+File open: objects/vehicles/civ_car1/civ_car_lod1.cga
+Loading objects/vehicles/civ_car1/civ_car_lod1.cga
+File open: objects/vehicles/civ_car1/civ_car_lod1.cga
+File open: objects/vehicles/civ_car1/civ_car_lod2.cga
+Loading objects/vehicles/civ_car1/civ_car_lod2.cga
+File open: objects/vehicles/civ_car1/civ_car_lod2.cga
+File open: objects/vehicles/civ_car1/civ_car_lod3.cga
+Loading objects/vehicles/civ_car1/civ_car_lod3.cga
+File open: objects/vehicles/civ_car1/civ_car_lod3.cga
+File open: objects/vehicles/civ_car1/civ_car_door1_exit.anm
+File open: objects/vehicles/civ_car1/civ_car_door1_exit.anm
+File open: objects/vehicles/civ_car1/civ_car_door1_open.anm
+File open: objects/vehicles/civ_car1/civ_car_door1_open.anm
+File open: objects/vehicles/civ_car1/civ_car_door2_exit.anm
+File open: objects/vehicles/civ_car1/civ_car_door2_exit.anm
+File open: objects/vehicles/civ_car1/civ_car_door2_open.anm
+File open: objects/vehicles/civ_car1/civ_car_door2_open.anm
+File open: objects/vehicles/civ_car1/civ_car_steeringwheel.anm
+File open: objects/vehicles/civ_car1/civ_car_steeringwheel.anm
+File open: objects/vehicles/civ_car1/civ_car.animevents
+File open: objects/vehicles/civ_car1/civ_car.animevents
+Loading CGA objects/vehicles/civ_car1/civ_car_damaged.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged.cga
+Loading objects/vehicles/civ_car1/civ_car_damaged.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged_lod1.cga
+Loading objects/vehicles/civ_car1/civ_car_damaged_lod1.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged_lod1.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged_lod2.cga
+Loading objects/vehicles/civ_car1/civ_car_damaged_lod2.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged_lod2.cga
+File open: materials/lightbeams/lightbeam_floodlight.mtl
+File open: materials/lightbeams/lightglow_white.mtl
+File open: materials/lightbeams/lightglow_red.mtl
+Getting animation movement data for animation graph playerfullbody.xml from entity Anencephalous
+[net 16:52:16.861] OnWitnessDeclared for channel 989, witness 65532
+[net 16:52:18.032] 94-226-124-186.access.telenet.be:60789 requests backoff due to congestion
+[net 16:52:18.530] 94-226-124-186.access.telenet.be:60789 requests backoff due to congestion
+[net 16:52:19.033] 94-226-124-186.access.telenet.be:60789 requests backoff due to congestion
+[net 16:52:19.531] 94-226-124-186.access.telenet.be:60789 requests backoff due to congestion
+[net 16:52:20.033] 94-226-124-186.access.telenet.be:60789 requests backoff due to congestion
+[net 16:52:20.533] 94-226-124-186.access.telenet.be:60789 requests backoff due to congestion
+Spawn player for channel 1
+[phys] way out of sync (2.54 seconds)... performing emergency reset
+[phys] way out of sync (0.56 seconds)... performing emergency reset
+[phys] way out of sync (0.31 seconds)... performing emergency reset
+CHAT Anencephalous to ALL:
+   hey
+[phys] way out of sync (0.34 seconds)... performing emergency reset
+File open: Mods\DestructionDerby\\info.xml
+[net 16:53:01.884] GameSpy CDKey check : Client 990 authorized by server. (Validated)
+[net 16:53:13.272] raphi-PC:59361 requests backoff due to congestion
+[net 16:53:13.772] raphi-PC:59361 requests backoff due to congestion
+Spawn player for channel 2
+DD:SpawnPlayer
+CGameStats::NewPlayer 0000FFEC 
+[net 16:53:14.668] OnWitnessDeclared for channel 990, witness 0
+[net 16:53:14.672] OnWitnessDeclared for channel 990, witness 65516
+[net 16:53:14.675] GameSpy Stats : AddPlayer 2 65516
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+[net 16:53:14.723] OnWitnessDeclared for channel 990, witness 65516
+Spawn player for channel 2
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A36AF0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   pity you went for the MTA kind of DD if you ask me
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+CHAT Nomad to ALL:
+   its just the map
+Disallowing msg (dead): source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 1
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A19890
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Loading CGA objects/vehicles/ltv/ltv.cga
+File open: objects/vehicles/ltv/ltv.cga
+File open: objects/vehicles/ltv/ltv.cga
+Loading objects/vehicles/ltv/ltv.cga
+File open: objects/vehicles/ltv/ltv.cga
+File open: objects/vehicles/ltv/us_ltv.mtl
+File open: objects/vehicles/ltv/ltv_door_left_front_enter.anm
+File open: objects/vehicles/ltv/ltv_door_left_front_enter.anm
+File open: objects/vehicles/ltv/ltv_door_left_front_exit.anm
+File open: objects/vehicles/ltv/ltv_door_left_front_exit.anm
+File open: objects/vehicles/ltv/ltv_door_left_rear_enter.anm
+File open: objects/vehicles/ltv/ltv_door_left_rear_enter.anm
+File open: objects/vehicles/ltv/ltv_door_left_rear_exit.anm
+File open: objects/vehicles/ltv/ltv_door_left_rear_exit.anm
+File open: objects/vehicles/ltv/ltv_door_right_front_enter.anm
+File open: objects/vehicles/ltv/ltv_door_right_front_enter.anm
+File open: objects/vehicles/ltv/ltv_door_right_front_exit.anm
+File open: objects/vehicles/ltv/ltv_door_right_front_exit.anm
+File open: objects/vehicles/ltv/ltv_door_right_rear_enter.anm
+File open: objects/vehicles/ltv/ltv_door_right_rear_enter.anm
+File open: objects/vehicles/ltv/ltv_door_right_rear_exit.anm
+File open: objects/vehicles/ltv/ltv_door_right_rear_exit.anm
+File open: objects/vehicles/ltv/ltv_steeringwheel.anm
+File open: objects/vehicles/ltv/ltv_steeringwheel.anm
+File open: objects/vehicles/ltv/ltv.animevents
+File open: objects/vehicles/ltv/ltv.animevents
+Loading CGA objects/vehicles/ltv/ltv_damaged.cga
+File open: objects/vehicles/ltv/ltv_damaged.cga
+File open: objects/vehicles/ltv/ltv_damaged.cga
+Loading objects/vehicles/ltv/ltv_damaged.cga
+File open: objects/vehicles/ltv/ltv_damaged.cga
+File open: objects/vehicles/ltv/us_ltv.mtl
+Loading Character objects/weapons/asian/shi_ten/shi_ten_vehicle.chr
+File open: objects/weapons/asian/shi_ten/shi_ten_vehicle.chr
+File open: objects/weapons/asian/shi_ten/shi_ten_vehicle.mtl
+File open: objects/weapons/asian/shi_ten/shi_ten_vehicle.cal
+File open: objects/weapons/asian/shi_ten/shi_ten_vehicle.cal
+File open: animations/1st_person/weapons/asian/shi_ten/vehicle/vehicle.dba
+File open: objects\weapons\Asian\Shi_Ten\Shi_Ten_vehicle_EventDataBase.animevents
+  10 animation-assets loaded (total assets: 260)
+[phys] way out of sync (0.73 seconds)... performing emergency reset
+[phys] way out of sync (0.95 seconds)... performing emergency reset
+[phys] way out of sync (0.43 seconds)... performing emergency reset
+ProcessDeath
+OnPlayerKilled
+Unloading Object: objects/effects/tracer_standard_new.cgf   Ptr=0xa48c340
+Unloading Object: objects/effects/tracer_standard_red_new.cgf   Ptr=0xa48c470
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A19890
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   LOL
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   lmao
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   NOOOEEES
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   nice
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   :D
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A5BAB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Nomad to ALL:
+   feel free to make some arena-like map :p
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   i already did
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   WUT :O
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+CHAT Anencephalous to ALL:
+   yeah i made a DD map for wars last year
+Disallowing msg (dead): source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 1
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A5BAB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A5BAB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga   Ptr=0xb689e70
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  wheel01_rim Ptr=0xb689fa0
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  wheel02_rim Ptr=0xb68adf0
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  wheel04_rim Ptr=0xb68af20
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  wheel03_rim Ptr=0xb68b050
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  hull_damaged Ptr=0xb68b180
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged_lod1.cga  hull_damaged Ptr=0xb68b3e0
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged_lod2.cga  hull_damaged Ptr=0xb68b640
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga   Ptr=0xb5d8be0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  back_door Ptr=0xb5d8d10
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  back_door Ptr=0xb6893c0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  dials_revometer Ptr=0xb5d8e40
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  dials_revometer Ptr=0xb688dd0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  dials_speedometer Ptr=0xb5d8f70
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  dials_speedometer Ptr=0xb688f00
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  door01 Ptr=0xb5d90a0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  door01 Ptr=0xb689160
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  door02 Ptr=0xb5d91d0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  door02 Ptr=0xb689290
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  glass_back Ptr=0xb5d9300
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  glass_front Ptr=0xb5d9430
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  glass_left Ptr=0xb5d9560
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  glass_right Ptr=0xb5d9690
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  hull Ptr=0xb5d97c0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  hull Ptr=0xb689030
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod2.cga  hull Ptr=0xb689ae0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod3.cga  hull Ptr=0xb689d40
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  hull_proxy Ptr=0xb5d9b50
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  steeringWheel Ptr=0xb5d9c80
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  steeringWheel Ptr=0xb689620
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  wheel01 Ptr=0xb5d9db0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  wheel02 Ptr=0xb5d9ee0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  wheel02 Ptr=0xb6894f0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod2.cga  wheel02 Ptr=0xb689880
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  wheel03 Ptr=0xb688910
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  wheel04 Ptr=0xb688a40
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  wheel04 Ptr=0xb688ca0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod2.cga  wheel04 Ptr=0xb6899b0
+CHAT Anencephalous to ALL:
+   it was probably my most succesful mapping/modding endeavor ev
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   er :P
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   partially because i actually finished it
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   its on crymod?
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   and because it was actually damn fun if you don't mind me say
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   ing
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   no
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   but i should post it
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   would be cool
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   the philosophy behind it was simply to blow shit up as much a
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   s possible
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   and it was fun
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0516A5D0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Loading CGA objects/vehicles/civ_car1/civ_car.cga
+File open: objects/vehicles/civ_car1/civ_car.cga
+File open: objects/vehicles/civ_car1/civ_car.cga
+Loading objects/vehicles/civ_car1/civ_car.cga
+File open: objects/vehicles/civ_car1/civ_car.cga
+File open: objects/vehicles/civ_car1/civ_car_color_variations.mtl
+File open: objects/vehicles/civ_car1/civ_car_lod1.cga
+Loading objects/vehicles/civ_car1/civ_car_lod1.cga
+File open: objects/vehicles/civ_car1/civ_car_lod1.cga
+File open: objects/vehicles/civ_car1/civ_car_lod2.cga
+Loading objects/vehicles/civ_car1/civ_car_lod2.cga
+File open: objects/vehicles/civ_car1/civ_car_lod2.cga
+File open: objects/vehicles/civ_car1/civ_car_lod3.cga
+Loading objects/vehicles/civ_car1/civ_car_lod3.cga
+File open: objects/vehicles/civ_car1/civ_car_lod3.cga
+File open: objects/vehicles/civ_car1/civ_car_door1_exit.anm
+File open: objects/vehicles/civ_car1/civ_car_door1_exit.anm
+File open: objects/vehicles/civ_car1/civ_car_door1_open.anm
+File open: objects/vehicles/civ_car1/civ_car_door1_open.anm
+File open: objects/vehicles/civ_car1/civ_car_door2_exit.anm
+File open: objects/vehicles/civ_car1/civ_car_door2_exit.anm
+File open: objects/vehicles/civ_car1/civ_car_door2_open.anm
+File open: objects/vehicles/civ_car1/civ_car_door2_open.anm
+File open: objects/vehicles/civ_car1/civ_car_steeringwheel.anm
+File open: objects/vehicles/civ_car1/civ_car_steeringwheel.anm
+File open: objects/vehicles/civ_car1/civ_car.animevents
+File open: objects/vehicles/civ_car1/civ_car.animevents
+Loading CGA objects/vehicles/civ_car1/civ_car_damaged.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged.cga
+Loading objects/vehicles/civ_car1/civ_car_damaged.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged_lod1.cga
+Loading objects/vehicles/civ_car1/civ_car_damaged_lod1.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged_lod1.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged_lod2.cga
+Loading objects/vehicles/civ_car1/civ_car_damaged_lod2.cga
+File open: objects/vehicles/civ_car1/civ_car_damaged_lod2.cga
+[phys] way out of sync (0.30 seconds)... performing emergency reset
+[phys] way out of sync (0.37 seconds)... performing emergency reset
+CHAT Anencephalous to ALL:
+   it was very minutely tactical as well though
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   we'll try it sometime
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+CHAT Nomad to ALL:
+   is it a complete mod?
+Disallowing msg (dead): source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 1
+CHAT Anencephalous to ALL:
+   oh jeeze the nanosuit
+Disallowing msg (dead): source 65532, target 65516, sspec 0, sdead 1, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   bit of a bug here
+Disallowing msg (dead): source 65532, target 65516, sspec 0, sdead 1, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   can you see it?
+Disallowing msg (dead): source 65532, target 65516, sspec 0, sdead 1, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   in case you didn't figure yet mouse1 = respawn :p
+Disallowing msg (dead): source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 1
+CHAT Anencephalous to ALL:
+   well probably not, i'll take a screenshot
+Disallowing msg (dead): source 65532, target 65516, sspec 0, sdead 1, tspec 0, tdead 0
+[phys] way out of sync (0.25 seconds)... performing emergency reset
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 07389410
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A0BE10
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   YUS
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   lol
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   RIDE ME, BITCH
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A36AF0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   oh snap
+CHAT Nomad to ALL:
+   haha
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   needs car damage regen?
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A5BAB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Nomad to ALL:
+   nah
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   maybe just that you can`'t blow your tyres
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A40470
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   lol
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   sec
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   sure
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   k
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0514DEB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   holy shit
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   nice
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A36AF0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Nomad to ALL:
+   that was like i just drove through you :S
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A40470
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   say hello to CE2 vehicle lag, lol
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0516A5D0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   xD
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   :D
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A36AF0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   want to try that map i mentioned earlier after this?
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+CHAT Anencephalous to ALL:
+   we'll need more people though
+Disallowing msg (dead): source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 1
+CHAT Nomad to ALL:
+   sure
+Disallowing msg (dead): source 65516, target 65532, sspec 0, sdead 1, tspec 0, tdead 0
+[phys] way out of sync (0.34 seconds)... performing emergency reset
+CHAT Anencephalous to ALL:
+   it's also not really only about crashing cars
+Disallowing msg (dead): source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 1
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 07389410
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   oh yes, ride me
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga   Ptr=0xb6c06f0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  wheel_3_damaged Ptr=0xb6c43c0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  wheel_4_damaged Ptr=0xb6c44f0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  wheel_2_damaged Ptr=0xb6c4620
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  wheel_1_damaged Ptr=0xb6c4750
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  sparewheel_damaged_1 Ptr=0xb6c4d40
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  $lod1_sparewheel_damaged_1 Ptr=0xb6c8fb0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  wheel_4_rim Ptr=0xb6c4e70
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  $lod1_wheel_4_rim Ptr=0xb6c90e0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  wheel_2_rim Ptr=0xb6c4fa0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  wheel_3_rim Ptr=0xb6c50d0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  wheel_1_rim Ptr=0xb6c5200
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  hull_damaged Ptr=0xb6c0820
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  $lod1_hull_damaged Ptr=0xb6c5330
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  $lod2_hull_damaged Ptr=0xb6c5460
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  door_left_front_damaged Ptr=0xb6c4c10
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  door_right_front_damaged Ptr=0xb6c49b0
+Unloading Object: objects/vehicles/ltv/ltv.cga   Ptr=0xb689c10
+Unloading Object: objects/vehicles/ltv/ltv.cga  wheel_1 Ptr=0xb68b9d0
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod1_wheel_1 Ptr=0xb6b8120
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod2_wheel_1 Ptr=0xb6bf190
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod3_wheel_1 Ptr=0xb6bf2c0
+Unloading Object: objects/vehicles/ltv/ltv.cga  wheel_2 Ptr=0xb68bb00
+Unloading Object: objects/vehicles/ltv/ltv.cga  wheel_4 Ptr=0xb68bc30
+Unloading Object: objects/vehicles/ltv/ltv.cga  wheel_3 Ptr=0xb68bd60
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod2_wheel_3 Ptr=0xb6bf3f0
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod3_wheel_3 Ptr=0xb6bf520
+Unloading Object: objects/vehicles/ltv/ltv.cga  sparewheel Ptr=0xb68be90
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod1_sparewheel Ptr=0xb6bf650
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod2_sparewheel Ptr=0xb6bf780
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod3_sparewheel Ptr=0xb6bf8b0
+Unloading Object: objects/vehicles/ltv/ltv.cga  hull Ptr=0xb68bfc0
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod1_hull Ptr=0xb6bfc40
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod2_hull Ptr=0xb6bfd70
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod3_hull Ptr=0xb6bfea0
+Unloading Object: objects/vehicles/ltv/ltv.cga  steeringWheel Ptr=0xb68c0f0
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod1_steeringwheel Ptr=0xb6bf9e0
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod2_steeringwheel Ptr=0xb6bfb10
+Unloading Object: objects/vehicles/ltv/ltv.cga  dials_speedometer Ptr=0xb68c220
+Unloading Object: objects/vehicles/ltv/ltv.cga  roof_part_1 Ptr=0xb68c350
+Unloading Object: objects/vehicles/ltv/ltv.cga  roof_part_3 Ptr=0xb68c480
+Unloading Object: objects/vehicles/ltv/ltv.cga  roof_part_2 Ptr=0xb6b6a90
+Unloading Object: objects/vehicles/ltv/ltv.cga  roof_part_4 Ptr=0xb6b6bc0
+Unloading Object: objects/vehicles/ltv/ltv.cga  dials_revometer Ptr=0xb6b6cf0
+Unloading Object: objects/vehicles/ltv/ltv.cga  window_front_right Ptr=0xb6b6e20
+Unloading Object: objects/vehicles/ltv/ltv.cga  window_front_left Ptr=0xb6b6f50
+Unloading Object: objects/vehicles/ltv/ltv.cga  grill_guard Ptr=0xb6b7080
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod1_grill_guard Ptr=0xb6bffd0
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod2_grill_guard Ptr=0xb6c0100
+Unloading Object: objects/vehicles/ltv/ltv.cga  hull_proxy Ptr=0xb6b71b0
+Unloading Object: objects/vehicles/ltv/ltv.cga  hull_proxy_02 Ptr=0xb6b72e0
+Unloading Object: objects/vehicles/ltv/ltv.cga  hull_proxy_03 Ptr=0xb6b7410
+Unloading Object: objects/vehicles/ltv/ltv.cga  shitenTurret Ptr=0xb6b7540
+Unloading Object: objects/vehicles/ltv/ltv.cga  shiten Ptr=0xb6b7670
+Unloading Object: objects/vehicles/ltv/ltv.cga  door_left_front Ptr=0xb6b77a0
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod1_door_left_front Ptr=0xb6c0230
+Unloading Object: objects/vehicles/ltv/ltv.cga  window_side_front_left Ptr=0xb6b78d0
+Unloading Object: objects/vehicles/ltv/ltv.cga  door_right_rear Ptr=0xb6b7a00
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod1_door_right_rear Ptr=0xb6c0360
+Unloading Object: objects/vehicles/ltv/ltv.cga  window_side_rear_right Ptr=0xb6b7b30
+Unloading Object: objects/vehicles/ltv/ltv.cga  door_right_front Ptr=0xb6b7c60
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod1_door_right_front Ptr=0xb6c0490
+Unloading Object: objects/vehicles/ltv/ltv.cga  window_side_front_right Ptr=0xb6b7d90
+Unloading Object: objects/vehicles/ltv/ltv.cga  door_left_rear Ptr=0xb6b7ec0
+Unloading Object: objects/vehicles/ltv/ltv.cga  $lod1_door_left_rear Ptr=0xb6c05c0
+Unloading Object: objects/vehicles/ltv/ltv.cga  window_side_rear_left Ptr=0xb6b7ff0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  door_left_rear_damaged Ptr=0xb6c4ae0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  door_right_rear_damaged Ptr=0xb6c4880
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  roof_part_1_damaged Ptr=0xb6c3f00
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  roof_part_2_damaged Ptr=0xb6c4030
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  roof_part_3_damaged Ptr=0xb6c4160
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  roof_part_4_damaged Ptr=0xb6c3dd0
+Unloading Object: objects/vehicles/ltv/ltv_damaged.cga  sparewheel_damaged Ptr=0xb6c4290
+CHAT Anencephalous to ALL:
+   LOL
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+CHAT Nomad to ALL:
+   argh :D
+Disallowing msg (dead): source 65516, target 65532, sspec 0, sdead 1, tspec 0, tdead 0
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0518EB90
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0514DEB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+Loading CGA objects/vehicles/ltv/ltv.cga
+File open: objects/vehicles/ltv/ltv.cga
+File open: objects/vehicles/ltv/ltv.cga
+Loading objects/vehicles/ltv/ltv.cga
+File open: objects/vehicles/ltv/ltv.cga
+File open: objects/vehicles/ltv/us_ltv.mtl
+File open: objects/vehicles/ltv/ltv_door_left_front_enter.anm
+File open: objects/vehicles/ltv/ltv_door_left_front_enter.anm
+File open: objects/vehicles/ltv/ltv_door_left_front_exit.anm
+File open: objects/vehicles/ltv/ltv_door_left_front_exit.anm
+File open: objects/vehicles/ltv/ltv_door_left_rear_enter.anm
+File open: objects/vehicles/ltv/ltv_door_left_rear_enter.anm
+File open: objects/vehicles/ltv/ltv_door_left_rear_exit.anm
+File open: objects/vehicles/ltv/ltv_door_left_rear_exit.anm
+File open: objects/vehicles/ltv/ltv_door_right_front_enter.anm
+File open: objects/vehicles/ltv/ltv_door_right_front_enter.anm
+File open: objects/vehicles/ltv/ltv_door_right_front_exit.anm
+File open: objects/vehicles/ltv/ltv_door_right_front_exit.anm
+File open: objects/vehicles/ltv/ltv_door_right_rear_enter.anm
+File open: objects/vehicles/ltv/ltv_door_right_rear_enter.anm
+File open: objects/vehicles/ltv/ltv_door_right_rear_exit.anm
+File open: objects/vehicles/ltv/ltv_door_right_rear_exit.anm
+File open: objects/vehicles/ltv/ltv_steeringwheel.anm
+File open: objects/vehicles/ltv/ltv_steeringwheel.anm
+File open: objects/vehicles/ltv/ltv.animevents
+File open: objects/vehicles/ltv/ltv.animevents
+Loading CGA objects/vehicles/ltv/ltv_damaged.cga
+File open: objects/vehicles/ltv/ltv_damaged.cga
+File open: objects/vehicles/ltv/ltv_damaged.cga
+Loading objects/vehicles/ltv/ltv_damaged.cga
+File open: objects/vehicles/ltv/ltv_damaged.cga
+File open: objects/vehicles/ltv/us_ltv.mtl
+[phys] way out of sync (0.65 seconds)... performing emergency reset
+[phys] way out of sync (0.69 seconds)... performing emergency reset
+CHAT Nomad to ALL:
+   ohai
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 099EF910
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   hah
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0514DEB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 05177B50
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   oh shi
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   haha :D
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+CHAT Anencephalous to ALL:
+   i was flickering my lights instead of paying attention lol
+Disallowing msg (dead): source 65532, target 65516, sspec 0, sdead 1, tspec 0, tdead 0
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0516A5D0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Nomad to ALL:
+   btw you like the camera?
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   it's too sensitive
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   but that's all
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   needs options too
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   nice
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   yeah
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   hahaha
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   very nice
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0516A5D0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 099FD710
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   ghey
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   lol
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   LOL
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   check my out, brah
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A40470
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   this happens because the massbox is off 
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   yeah thats what i mean :D
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   hm?
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   it's under the car
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   oh
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   hence it can hang like this
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   the problem is if you put the massbox in the proper spot
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   your car will flip really esily
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+CHAT Anencephalous to ALL:
+   easily
+Disallowing msg (dead): source 65532, target 65516, sspec 0, sdead 1, tspec 0, tdead 0
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A0BE10
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   LOL
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   woah
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0516A5D0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   shit, nice
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A4BB50
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A40470
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0515E810
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   MMMH
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   nice
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A36AF0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   hahaha
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0516A5D0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Nomad to ALL:
+   car has real failbrakes
+Disallowing msg (dead): source 65516, target 65532, sspec 0, sdead 1, tspec 0, tdead 0
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0516A5D0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Nomad to ALL:
+   lol
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   laff
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A297F0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A297F0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0518EB90
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   damn
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 07389410
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   lmao
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   lol
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   oh shit
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A5BAB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A4BB50
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A297F0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 05183410
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   failturn
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   :D
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 099FD710
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Nomad to ALL:
+   LMAO
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0514DEB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   epic handbrake
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   hahaha
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 05177B50
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+[phys] way out of sync (0.42 seconds)... performing emergency reset
+CHAT Anencephalous to ALL:
+   let me lend you a hand
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+[phys] way out of sync (0.50 seconds)... performing emergency reset
+CHAT Anencephalous to ALL:
+   LOL
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   thx!
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 099FD710
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   holy shit, nice
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   that massbox rteally is off
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   yeh it is
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Nomad to ALL:
+   your car is like air
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 099FD710
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 099FD710
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A5BAB0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 0516A5D0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/Civ_car1.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Anencephalous to ALL:
+   ha
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 099EF910
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+CHAT Nomad to ALL:
+   so shall we check out your map?
+Allowing msg: source 65516, target 65532, sspec 0, sdead 0, tspec 0, tdead 0
+CHAT Anencephalous to ALL:
+   sure
+Allowing msg: source 65532, target 65516, sspec 0, sdead 0, tspec 0, tdead 0
+ProcessDeath
+OnPlayerKilled
+DD.Server:RequestRevive
+IsDead: true
+DD.Server:RequestRevive->spawn: table: 09A297F0
+DD:SpawnPlayer
+File open: Scripts/Entities/Vehicles/Implementations/Xml/US_ltv.xml
+File open: Scripts/Entities/Vehicles/def_vehicle.xml
+[Warning] $6[net 17:14:51.141] Resend last packet to 94-226-124-186.access.telenet.be:60789
+[Warning] $6[net 17:14:53.020] Resend last packet to 94-226-124-186.access.telenet.be:60789
+[Warning] $6[net 17:14:54.900] Resend last packet to 94-226-124-186.access.telenet.be:60789
+[net 17:14:56.787] Disconnect 94-226-124-186.access.telenet.be:60789; profid=113168429; cause=0; msg='Timeout occurred; no packet for 31.6 seconds'
+CGameStats::RemovePlayer 0000FFFC 
+[net 17:14:56.797] CDKey reported disconnected for 989
+[phys] way out of sync (0.35 seconds)... performing emergency reset
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga   Ptr=0xb689ae0
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  wheel01_rim Ptr=0xb5d90a0
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  wheel02_rim Ptr=0xb5d8e40
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  wheel04_rim Ptr=0xb5d8d10
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  wheel03_rim Ptr=0xb6893c0
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged.cga  hull_damaged Ptr=0xb68b180
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged_lod1.cga  hull_damaged Ptr=0xb68b3e0
+Unloading Object: objects/vehicles/civ_car1/civ_car_damaged_lod2.cga  hull_damaged Ptr=0xb68b050
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga   Ptr=0xb6c96d0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  back_door Ptr=0xb6c95a0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  back_door Ptr=0xb5d9300
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  dials_revometer Ptr=0xb6c9470
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  dials_revometer Ptr=0xb5d98f0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  dials_speedometer Ptr=0xb6c9340
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  dials_speedometer Ptr=0xb5d9a20
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  door01 Ptr=0xb6c9210
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  door01 Ptr=0xb5d9560
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  door02 Ptr=0xb5d8be0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  door02 Ptr=0xb5d9430
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  glass_back Ptr=0xb688a40
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  glass_front Ptr=0xb6899b0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  glass_left Ptr=0xb688ca0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  glass_right Ptr=0xb688910
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  hull Ptr=0xb5d9ee0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  hull Ptr=0xb5d9690
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod2.cga  hull Ptr=0xb688f00
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod3.cga  hull Ptr=0xb688dd0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  hull_proxy Ptr=0xb5d9db0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  steeringWheel Ptr=0xb5d9c80
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  steeringWheel Ptr=0xb689290
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  wheel01 Ptr=0xb689620
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  wheel02 Ptr=0xb5d9b50
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  wheel02 Ptr=0xb5d91d0
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod2.cga  wheel02 Ptr=0xb689160
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  wheel03 Ptr=0xb5d97c0
+Unloading Object: objects/vehicles/civ_car1/civ_car.cga  wheel04 Ptr=0xb689d40
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod1.cga  wheel04 Ptr=0xb689030
+Unloading Object: objects/vehicles/civ_car1/civ_car_lod2.cga  wheel04 Ptr=0xb5d8f70
+[net 17:16:52.051] Received disconnect packet from raphi-PC:59361: User left the game
+[net 17:16:52.051] Disconnect raphi-PC:59361; profid=134389239; cause=19; msg='Remote disconnected: User left the game'
+CGameStats::RemovePlayer 0000FFEC 
+Closing PAK file: game\lowspec\lowspec.pak
+[net 17:16:52.092] CDKey reported disconnected for 990
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf   Ptr=0x4db7660
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Head Ptr=0x4db7790
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Head_02 Ptr=0x4db78c0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Calf Ptr=0x4db79f0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Foot Ptr=0x4db7b20
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Hand Ptr=0x4db7c50
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Thigh Ptr=0x4db7d80
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Upperarm Ptr=0xa1e6a50
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Forearm_02 Ptr=0xa1e6b80
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Pelvis Ptr=0xa1e6cb0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Calf Ptr=0xa1e6de0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Foot Ptr=0xa1e6f10
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Forearm Ptr=0xa1e7040
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Forearm_02 Ptr=0xa1e7170
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Hand Ptr=0xa1e72a0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Thigh Ptr=0xa1e73d0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Upperarm Ptr=0xa1e7500
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Spine1 Ptr=0xa1e7630
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Spine2 Ptr=0xa1e7760
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Forearm Ptr=0xa1e7890
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Pelvis_02 Ptr=0xa1e79c0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Foot_01 Ptr=0xa1e7af0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Foot_02 Ptr=0xa1e7c20
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Foot_03 Ptr=0xa1e7d50
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Thigh_02 Ptr=0xa1e7e80
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Thigh_03 Ptr=0xa1e7fb0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Thigh_04 Ptr=0xa1e80e0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Upperarm_02 Ptr=0xa1e8df0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  R Upperarm_03 Ptr=0xa1e8f20
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Spine1_02 Ptr=0xa1e9050
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Spine1_03 Ptr=0xa1e9180
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Spine1_04 Ptr=0xa1e92b0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Spine2_02 Ptr=0xa1e93e0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Spine2_03 Ptr=0xa1e9510
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Head_01 Ptr=0xa1e9640
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Calf_02 Ptr=0xa1e9770
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Foot_02 Ptr=0xa1e98a0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Thigh_02 Ptr=0xa1e99d0
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Upperarm_02 Ptr=0xa1e9b00
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L Upperarm_03 Ptr=0xa1e9c30
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  L_Forearm_03 Ptr=0xa1e9d60
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Head_03 Ptr=0xa1e9e90
+Unloading Object: objects/characters/human/asian/nk_soldier/nk_soldier_frozen_scatter.cgf  Head_04 Ptr=0xa1e9fc0

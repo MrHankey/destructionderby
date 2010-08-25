@@ -1,0 +1,8 @@
+<MetaData>
+   <MiniMap Filename="Battleground.dds" startX="437.071289" startY="1828.489990" endX="1637.071289" endY="3028.489990" mapRadius="100"/>
+   <Gamerules MP1="InstantAction" MP2="TeamInstantAction"/>
+   <LoadingScreens screen1="Battleground_Loading.dds"/>
+   <HeaderText text="Crash"/>
+   <DescriptionText text="Pre-release, WIP. Simple goal: Score as many kills as you can by blowing things up. Lots of stuff is to be added or changed, feedback goes to blablah23 on Xfire."/>
+   <Display Name="Crash"/>
+</MetaData>

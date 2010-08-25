@@ -1,0 +1,8 @@
+<Material MtlFlags="2050" Shader="Glass" GenMask="268435472" SurfaceType="mat_glass" Diffuse="0,0,0" Specular="0,0,0" Emissive="1,1,1" Shininess="1" Opacity="1">
+ <Textures>
+  <Texture Map="Environment" File="textures/cubemaps/frozen_land.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams TintAmount="0" RefrBumpScale="0.1" ReflectionAmount="0.25" FresnelBias="0.2" FresnelScale="1" BackLightScale="1" FilterColor="1,1,1"/>
+</Material>

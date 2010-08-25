@@ -1,0 +1,101 @@
+   Checking resource compiler.
+   Resource compiler check passed.
+   Exporter build created on Monday, 27 April 2009
+   Build created by username Michael Smith
+   Using Microsoft (tm) C++ Standard Library implementation
+   Release build.
+   Bit count == 32.
+   Application path: F:\Softimage\Softimage_Mod_Tool_7.5\Application\bin\XSI.exe
+   Exporter path: C:\Users\raphi\Autodesk\Softimage_Mod_Tool_7.5\Addons\Crytek Addon\Application\Plugins\XSICryExport.dll
+   Export begun at 16:45:39 on Thu, 20/05/2010
+   Checking ExportCompressedCOLLADA key: 1
+   Exporting to file 'F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Mods\Race\Game\Objects\Checkpoint.dae'
+   Calling RC to generate raw asset file: F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Mods\Race\Game\Objects\Checkpoint.dae
+   ResourceCompiler Version 1.4.4373340
+   ================
+   Copyright(c) Crytek 2001-2005, All Rights Reserved.
+   
+   CommandLine:
+     'F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Mods\Race\Game\Objects\Checkpoint.dae'
+     '/userdialog=1'
+     '/userdialogcustom=0'
+   
+   Platform (/p) not specified, defaulting to PC.
+   
+   Registering sub compilers (ResourceCompiler*.dll)
+   
+     Loading "ResourceCompilerImage.dll"
+       Registered convertor for tif
+       Registered convertor for srf
+       Registered convertor for stm, dds
+   
+     Loading "ResourceCompilerPC.dll"
+       Registered convertor for chr
+       Registered convertor for cgf, cga
+       Registered convertor for dae
+       Registered convertor for cba
+   
+     Loading "ResourceCompilerXML.dll"
+       Registered convertor for xml
+   
+   Error: Couldn't load compressor plug-in module CryCompressorRC.dll
+   
+   used preset configuration: presetcfg=rc_presets_pc.ini
+   ERROR: key 'ext_dae' was not registered, call RegisterKey() before using the key
+   
+   -------------------------------------------------------
+   Path=''
+   File='Checkpoint.dae'
+   Loading XML...
+   Finished loading XML.
+   
+   
+   
+   Processing 'CryExportNode_Checkpoint-CGF-Checkpoint-DoExport-MergeNodes'
+   
+   Finished loading 'F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Mods\Race\Game\Objects\Checkpoint.dae'
+   
+   
+   1 file processed.
+   RC finished: F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Mods\Race\Game\Objects\Checkpoint.dae
+   CompressCAFs not set or set to 1 - compressing CAFs
+   OptimizeAssets not set or set to 1 - optimizing geometry
+   Calling RC to optimize asset "F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Mods\Race\Game\Objects\Checkpoint.cgf"
+   ResourceCompiler Version 1.4.4373340
+   ================
+   Copyright(c) Crytek 2001-2005, All Rights Reserved.
+   
+   CommandLine:
+     'F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Mods\Race\Game\Objects\Checkpoint.cgf'
+     '/userdialog=1'
+     '/userdialogcustom=0'
+   
+   Platform (/p) not specified, defaulting to PC.
+   
+   Registering sub compilers (ResourceCompiler*.dll)
+   
+     Loading "ResourceCompilerImage.dll"
+       Registered convertor for tif
+       Registered convertor for srf
+       Registered convertor for stm, dds
+   
+     Loading "ResourceCompilerPC.dll"
+       Registered convertor for chr
+       Registered convertor for cgf, cga
+       Registered convertor for dae
+       Registered convertor for cba
+   
+     Loading "ResourceCompilerXML.dll"
+       Registered convertor for xml
+   
+   Error: Couldn't load compressor plug-in module CryCompressorRC.dll
+   
+   used preset configuration: presetcfg=rc_presets_pc.ini
+   
+   -------------------------------------------------------
+   Path=''
+   File='Checkpoint.cgf'
+   
+   1 file processed.
+   RC finished: F:\Program Files\Electronic Arts\Crytek\Crysis Wars\Mods\Race\Game\Objects\Checkpoint.cgf
+   Export finished at 16:45:39 on Thu, 20/05/2010

@@ -1,0 +1,12 @@
+<item name="FGL40EMP" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+		<param name="attachment_gives_ammo" value="1" />
+	</params>
+	<geometry>
+    <firstperson name="objects/weapons/asian/fgl40/drum_emp.cdf"/>
+    <thirdperson name="objects/weapons/asian/fgl40/emp_drum_tp.cgf"/>
+	</geometry>
+</item>

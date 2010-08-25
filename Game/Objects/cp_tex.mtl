@@ -1,0 +1,9 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="_01_Scene_Material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="F:/Softimage/Softimage_Mod_Tool_7.5/Addons/ModTool_Database/Pictures/CP_Tex512.tif"/>
+   </Textures>
+  </Material>
+ </SubMaterials>
+</Material>
