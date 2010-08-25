@@ -1,0 +1,6 @@
+<MetaData> 
+<Gamerules MP1="DestructionDerby"/>
+<HeaderText text="mapname"/> 
+<DescriptionText text="Write a short info text about your map here"/> 
+<Display Name="mapname"/> 
+</MetaData>

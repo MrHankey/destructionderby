@@ -1,0 +1,11 @@
+<item name="FGL40Detonator" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+    <firstperson name="objects/weapons/asian/fgl40/remote_detonator.cgf" />
+    <thirdperson name="objects/weapons/asian/fgl40/remote_detonator_tp.cgf" />
+	</geometry>
+</item>

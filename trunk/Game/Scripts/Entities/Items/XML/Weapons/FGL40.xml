@@ -1,0 +1,347 @@
+<item name="FGL40" class="Weapon" category="medium" priority="30">
+	<params>
+		<param name="giveable" 		value="1" />
+		<param name="selectable" 	value="1" />
+		<param name="pose" 				value="rifle" />
+		<param name="mass"				value="25" />
+		<param name="two_hand"				value="2" />
+		<param name="melee_attack_firemode"		value="melee" />
+		<param name="raiseable"		value="true" />
+		<param name="raise_distance" value="0.80" />
+		<param name="has_first_select" value="0" />
+		<param name="attach_to_back" value="1" />
+		<param name="bone_attachment_01" value="back_item_attachment_01" />
+		<param name="bone_attachment_02" value="back_item_attachment_02" />
+		<param name="display_name"	value="@mp_eFGL40" />
+		<dualwield>
+			<suffix value="akimbo_" />
+		</dualwield>
+	</params>
+  <!--<ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="3"
+		draw_time="0.5" sweep_width="1.5" sweep_frequency="2.5"
+		burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="0.4" />-->
+ <ai_descriptor handler="projectile_fast" speed="20" damage_radius="10" signal_on_shoot="1"
+     burstBulletCountMin="1" burstBulletCountMax="3"
+     draw_time="0.5" sweep_width="1.5" sweep_frequency="2.5"
+     burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="0.4"/>
+  <!--<ai_descriptor handler="grenade" />-->
+  <ammos>
+		<ammo name="fgl40fraggrenade" extra="0" amount="6" minAmmo="2"/>
+    <ammo name="fgl40empgrenade" extra="0" amount="6" accessoryAmmo="0" minAmmo="2"/>    
+	</ammos>
+	<geometry>
+		<firstperson name="objects/weapons/asian/fgl40/fgl40.cdf" angles="0,0,0"/>
+		<thirdperson name="objects/weapons/asian/fgl40/fgl40_tp.cgf" />
+		<boneAttachments>
+			<attachment target="firstperson" name="muzzle_flash_effect" bone="weapon_term" />
+			<attachment target="firstperson" name="muzzle_flash_light" bone="weapon_term" />
+			<attachment target="firstperson" name="muzzle_flash_smoke" bone="weapon_term" />
+			<attachment target="firstperson" name="attachment_front" bone="attachment_top" />
+      <attachment target="firstperson" name="attachment_side" bone="attachment_side" />
+      <attachment target="firstperson" name="attachment_side_light" bone="attachment_side"/>
+      <attachment target="firstperson" name="magazine" bone="drum_attach" />
+      <attachment target="firstperson" name="attachment_back" bone="remote_detonator_back_part_helper" />
+    </boneAttachments>
+	</geometry>
+	<actions>
+    <action name="select">
+      <animation target="firstperson" name="select_weapon" />
+      <animation target="owner" name="select" />
+      <sound target="firstperson" name="sounds/weapons:automata_grenade_launcher:select" radius="2" />
+      <sound target="thirdperson" name="sounds/weapons:automata_grenade_launcher:select" radius="2" />
+    </action>
+    <action name="first_select">
+      <animation target="firstperson" name="select_weapon" />
+      <animation target="owner" name="select" />
+      <sound target="firstperson" name="sounds/weapons:automata_grenade_launcher:select" radius="2" />
+      <sound target="thirdperson" name="sounds/weapons:automata_grenade_launcher:select" radius="2" />
+    </action>
+    <action name="deselect">
+      <animation target="firstperson" name="deselect_01" />
+      <animation target="owner" name="deselect" />
+      <sound target="firstperson" name="sounds/weapons:scar:deselect" radius="2" />
+      <sound target="thirdperson" name="sounds/weapons:scar:deselect" radius="2" />
+    </action>
+    
+    <action name="idle">
+      <animation target="firstperson" name="idle_animation_%suffix%01" speed="0.7"/>
+      <animation target="owner" name="idle" />
+    </action>
+
+    <action name="pickedup">
+      <sound target="firstperson" name="Sounds/weapons:weapon_accessories:pickup_weapon_fp" radius="2" />
+      <sound target="thirdperson" name="Sounds/weapons:weapon_accessories:pickup_weapon" radius="2" />
+    </action>
+
+    <action name="fire">
+			<animation target="firstperson" name="fire_weapon" />
+			<animation target="owner" name="shoot" />
+			<sound target="firstperson" name="sounds/weapons:automata_grenade_launcher:fire_fp" radius="200" static="1" />
+			<sound target="thirdperson" name="sounds/weapons:automata_grenade_launcher:fire" radius="200" static="1" />
+		</action>
+		<!--<action name="offhand_on">
+			<animation target="firstperson" name="remove_hand_%offhand%_01" />
+		</action>
+		<action name="offhand_off">
+			<animation target="firstperson" name="grab_weapon_%offhand%_01" />
+		</action>-->
+		<action name="reload_shell">
+			<animation target="firstperson" name="reloading_loading_hand"/>
+      <!--<sound target="firstperson" name="sounds/weapons:automata_grenade_launcher:reload" radius="2" static="1" />
+			<sound target="thirdperson" name="sounds/weapons:automata_grenade_launcher:reload" radius="2" static="1" />-->
+		</action>
+		<action name="begin_reload">
+			<animation target="firstperson" name="reloading_open"/>
+			<animation target="owner" name="reload_begin" />
+		</action>
+		<action name="exit_reload_nopump">
+			<animation target="firstperson" name="reloading_close"/>
+			<animation target="owner" name="reload_end_no_pump" />
+		</action>
+    <action name="exit_reload_pump">
+      <animation target="firstperson" name="reloading_close"/>
+      <animation target="owner" name="reload_end_no_pump" />
+    </action>
+		<action name="empty_clip">
+			<sound target="firstperson" name="sounds/weapons:automata_grenade_launcher:dryfire_fp" radius="2" />
+			<sound target="thirdperson" name="sounds/weapons:automata_grenade_launcher:dryfire" radius="2" />
+		</action>
+		<action name="null_fire">
+			<sound target="firstperson" name="Sounds/interface:hud:null_fire" radius="2" />
+		</action>	
+		<action name="enter_modify">
+			<animation target="firstperson" name="modify_enter" />
+      <animation target="ownerloop" name="modify_weapon" />
+      <sound target="firstperson" name="sounds/weapons:automata_grenade_launcher:modific_up" radius="2" />
+    </action>
+    <action name="leave_modify">
+      <animation target="firstperson" name="modify_leave" />
+      <animation target="ownerloop" name="idle" />
+      <sound target="firstperson" name="sounds/weapons:automata_grenade_launcher:modific_down" radius="2" />
+    </action>
+
+		<!--<action name="attach_scope">
+			<animation target="firstperson" name="scope_on_01" />
+			<sound target="firstperson" name="sounds/weapons:shotgun:attach_scope" radius="3" />
+			<sound target="thirdperson" name="sounds/weapons:shotgun:attach_scope" radius="3" />
+		</action>
+		<action name="detach_scope">
+			<animation target="firstperson" name="scope_off_01" />
+			<sound target="firstperson" name="sounds/weapons:shotgun:detach_scope" radius="3" />
+			<sound target="thirdperson" name="sounds/weapons:shotgun:detach_scope" radius="3" />
+		</action>-->
+
+		<!--<action name="zoom_in">
+			<animation target="firstperson" name="zoom_in_%suffix%01" />
+		</action>
+		<action name="zoom_out">
+			<animation target="firstperson" name="zoom_out_%suffix%01" />
+		</action>-->
+		
+		<!--<action name="zoom_in_reflex">
+			<animation target="firstperson" name="zoom_in_reflex_01" />
+		</action>
+		<action name="zoom_out_reflex">
+			<animation target="firstperson" name="zoom_out_reflex_01" />
+		</action>-->
+		
+		<action name="melee">
+			<animation target="firstperson" name="melee_attack" />
+			<animation target="owner" name="melee" />
+			<!--<sound target="firstperson" name="sounds/weapons:melee:fire" radius="5" />-->
+			<sound target="thirdperson" name="sounds/weapons:melee:fire" radius="5" />
+		</action>
+		
+		<action name="hit">
+			<sound target="firstperson" name="sounds/physics:bullet_impact:melee_impact_mw" radius="5" />
+			<sound target="thirdperson" name="sounds/physics:bullet_impact:melee_impact_mw" radius="5" />
+		</action>
+		
+		<action name="change_firemode">
+			<animation target="firstperson" name="switch_firemode" />
+			<animation target="owner" name="firemode" />
+			<!--<sound target="firstperson" name="sounds/weapons:weapon_accessories:change_firemode" radius="2" />
+			<sound target="thirdperson" name="sounds/weapons:weapon_accessories:change_firemode" radius="2" />-->
+		</action>		
+
+		<action name="change_firemode_zoomed">
+			<animation target="owner" name="firemode" />
+			<sound target="firstperson" name="sounds/weapons:weapon_accessories:change_firemode" radius="3" />
+			<sound target="thirdperson" name="sounds/weapons:weapon_accessories:change_firemode" radius="3" />
+		</action>
+		
+		<action name="raise">
+			<animation target="firstperson" name="raise_weapon" />
+		</action>
+		
+		<action name="idle_raised">
+			<animation target="firstperson" name="raise_idle" />
+		</action>
+		
+		<action name="lower">
+			<animation target="firstperson" name="raise_to_normal" />
+		</action>
+
+    <action name="offhand_on">
+      <animation target="firstperson" name="remove_hand_%offhand%_01" />
+    </action>
+    <action name="offhand_off">
+      <animation target="firstperson" name="grab_weapon_%offhand%_01" />
+    </action>
+			
+	</actions>
+	<layers>	
+		<!--<layer name="scope">
+			<animation target="firstperson" name="scope_on_layer_01" layerId="1" />
+		</layer>
+		<layer name="modify_layer">
+			<animation target="firstperson" name="modify_layer_%hand%_01" layerId="2" />
+		</layer>	
+		<layer name="flashlight">
+			<animation target="firstperson" name="flashlight_on_layer_01" layerId="3" />
+		</layer>
+		<layer name="lever_layer_1">
+			<animation target="firstperson" name="firemode_switch_layer_01" layerId="4" />
+		</layer>
+		<layer name="lever_layer_2">
+			<animation target="firstperson" name="firemode_switch_layer_02" layerId="5" />
+		</layer>-->		
+	</layers>
+	<firemodes>
+		<firemode type="default">
+      <fire>
+        <param name="ammo_type" value="fgl40fraggrenade" />
+        <param name="clip_size" value="6" />
+        <param name="rate" value="60" />
+        <param name="damage" value="150" />
+        <param name="reload_time" value="3.2" />
+        <param name="bullet_chamber" value="0" />
+        <param name="helper_tp" value="weapon_term" />
+        <param name="distance" value="-1" />
+      </fire>
+      <grenade_launch>
+        <param name="shoot_delay" value="240" />
+        <param name="reload_delay" value="620" />
+        <param name="shoot_rotate" value="280" />
+        <param name="reload_rotate" value="460" />
+      </grenade_launch>
+      <spread>
+        <param name="min" value="3.0" />
+        <param name="max" value="6.0" />
+        <param name="attack" value="0.95" />
+        <param name="decay" value="0.7" />
+        <param name="speed_m" value="1.15" />
+      </spread>
+      <muzzleflash>
+        <firstperson effect="muzzleflash.Shotgun.ShotgunReversed" helper="muzzle_flash_effect" light_helper="muzzle_flash_light" light_radius="2" time="0.500" light_color="1,1,0.8" light_diffuse_mult="8" />
+        <thirdperson effect="muzzleflash.Shotgun.Shotgun_tp" helper="weapon_term" light_helper="weapon_term" light_radius="2.3" time="0.500" light_color="1,1,0.8" light_diffuse_mult="8" />
+      </muzzleflash>
+    </firemode>
+    <firemode name="Launch" type="GrenadeLaunch">
+      <shotgun>
+        <param name="pellets" value="1" />
+        <param name="pelletdamage" value="250" />
+        <param name="spread" value="0" />
+      </shotgun>
+      <grenade_launch>
+        <param name="ammo_type" value="fgl40fraggrenade" />
+      </grenade_launch>
+    </firemode>
+    <!--<firemode name="LaunchBounce" type="GrenadeLaunch">
+      <shotgun>
+        <param name="pellets" value="1" />
+        <param name="pelletdamage" value="250" />
+        <param name="spread" value="0" />
+      </shotgun>
+      <grenade_launch>
+        <param name="ammo_type" value="fgl40bouncegrenade" />
+      </grenade_launch>
+    </firemode>-->
+    <firemode name="LaunchRemote" type="GrenadeLaunch" enabled="0">
+      <shotgun>
+        <param name="pellets" value="1" />
+        <param name="pelletdamage" value="250" />
+        <param name="spread" value="0" />
+      </shotgun>
+      <grenade_launch>
+        <param name="ammo_type" value="fgl40remotegrenade" />
+        <param name="remote_detonated" value="true" />
+      </grenade_launch>
+    </firemode>
+    <firemode name="melee" type="Melee">
+      <melee>
+        <param name="helper" value="collision" />
+        <param name="offset" value="0.85" />
+        <param name="damage" value="10" />
+        <param name="impulse" value="30" />
+        <param name="delay" value="0.2" />
+        <param name="duration" value="0.35" />
+      </melee>
+      <actions>
+        <param name="attack" value="melee" />
+      </actions>
+    </firemode>
+  </firemodes>
+  <zoommodes>
+	</zoommodes>
+	<accessories>
+    <initialsetup>
+      <accessory name="FGL40Frag" />
+      <accessory name="FGL40EMP" />
+      <accessory name="FGL40Detonator" />
+    </initialsetup>
+    <accessory name="FGL40Frag" ammo_prereq="fgl40fraggrenade">
+      <attach helper="magazine" layer="" />
+      <detach />
+    </accessory>
+    <accessory name="FGL40EMP" ammo_prereq="fgl40empgrenade">
+      <attach helper="magazine" layer="" />
+      <detach />
+      <params>
+        <firemodes>
+          <firemode type="default">
+            <fire>
+              <param name="ammo_type" value="fgl40empgrenade" />
+              <param name="damage" value="0" />
+            </fire>
+          </firemode>
+          <firemode name="Launch" type="GrenadeLaunch">
+            <shotgun>
+              <param name="pelletdamage" value="0" />
+            </shotgun>
+            <grenade_launch>
+              <param name="ammo_type" value="fgl40empgrenade" />
+            </grenade_launch>
+          </firemode>
+          <!--<firemode name="LaunchBounce" type="GrenadeLaunch">
+            <shotgun>
+              <param name="pelletdamage" value="0" />
+            </shotgun>
+            <grenade_launch>
+              <param name="ammo_type" value="fgl40bounceemp" />
+            </grenade_launch>
+          </firemode>-->
+          <firemode name="LaunchRemote" type="GrenadeLaunch" enabled="0">
+            <shotgun>
+              <param name="pelletdamage" value="0" />
+            </shotgun>
+            <grenade_launch>
+              <param name="ammo_type" value="fgl40remoteemp" />
+              <param name="remote_detonated" value="true" />
+            </grenade_launch>
+          </firemode>
+        </firemodes>
+      </params>
+    </accessory>
+    <accessory name="FGL40Detonator" firemodes="LaunchRemote" exclusive="1">
+      <!--<attach helper="attachment_top" layer="scope" />-->
+      <attach helper="attachment_front" layer="" />
+      <detach />
+    </accessory>
+    <accessory name="LAMRifleFlashLight">
+      <!--<attach helper="attachment_side" layer="flashlight" />-->
+      <attach helper="attachment_side" layer="" />
+      <detach />
+    </accessory>
+	</accessories>
+</item>

@@ -1,0 +1,7 @@
+<MetaData> 
+<Gamerules MP1="DestructionDerby"/>
+<LoadingScreens screen1="screen.dds"/> 
+<HeaderText text="YATM"/> 
+<DescriptionText text="Yet another test map"/> 
+<Display Name="YATM"/> 
+</MetaData>

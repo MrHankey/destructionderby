@@ -1,0 +1,11 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="mat_concrete" Diffuse="0.62352943,0.62352943,0.62352943" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/library/architecture/concrete structure/concrete_dirty.dds">
+   <TexMod TileU="0.25" TileV="0.25"/>
+  </Texture>
+  <Texture Map="Normalmap" File="objects/library/architecture/concrete structure/concrete_dirty_ddn.dds" Amount="50">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

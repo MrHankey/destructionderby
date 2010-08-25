@@ -1,0 +1,58 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="concrete" MtlFlags="128" Shader="Illum" GenMask="272646144" SurfaceType="mat_concrete" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/concrete structure/concrete_dirty3.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/concrete structure/concrete_dirty_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_005_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" DetailBumpTillingU="3" DetailBumpTillingV="3" DetailBumpScale="1" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="pipe" MtlFlags="128" Shader="Illum" GenMask="272629760" SurfaceType="mat_metal_sheet" Diffuse="0.709804,0.709804,0.709804" Specular="0.47451001,0.47451001,0.47451001" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/multiplayer/vehicle_factory/corrugated_metal.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/multiplayer/vehicle_factory/corrugated_metal_ddn.tif" Amount="50">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="decal_streak" MtlFlags="128" Shader="Illum" GenMask="301989888" SurfaceType="mat_concrete" Diffuse="0.321569,0.321569,0.321569" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.61000001">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decal/dirty_rust/dirt_010.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="grill" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal" Diffuse="0.54509801,0.54509801,0.54509801" Specular="0.50980401,0.50980401,0.50980401" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/Architecture/Bridges/concrete_bridgeA/rebar.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="end" MtlFlags="128" Shader="Illum" GenMask="272629760" SurfaceType="mat_nodraw" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/concrete structure/concrete_dirty3.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="metalproxy" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

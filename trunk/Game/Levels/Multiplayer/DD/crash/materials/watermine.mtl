@@ -1,0 +1,33 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="texture" MtlFlags="130" Shader="Illum" GenMask="268447760" SurfaceType="mat_alien_forcefield_warrior" Diffuse="0.14901961,0.60000002,0" Specular="0.42352945,0.42352945,0.42352945" Emissive="0,0,0" Shininess="11.9" Opacity="0.85100001" GlowAmount="1.75">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/cubemaps/sphere_hull3.dds">
+     <TexMod TileU="2" TileV="2" TexMod_UOscillatorType="2" TexMod_RotateType="2" TexMod_URotateAmplitude="0.0054931641" TexMod_WRotateAmplitude="0.0054931641" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/library/architecture/harbour/swimming_platform_rustymetal_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/harbour/warehouse/harbour_warehouse_wall_bottom_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sphere_hull3.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal_rough" Diffuse="0,0.80000007,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.33000001">
+   <Textures />
+  </Material>
+  <Material Name="text" MtlFlags="160" Shader="Illum" GenMask="301989888" SurfaceType="mat_metal_rough" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="1" Opacity="0.505">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/props/watermine/watermine_decal.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

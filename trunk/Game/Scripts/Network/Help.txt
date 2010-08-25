@@ -1,0 +1,40 @@
+======================================================================================
+= Crysis Dedicated Server Help                                                       =
+======================================================================================
+
+
+Basic console commands to set up a server:
+
+
+sv_gamerules            Set the game type (case sensitive). Possible values:
+                        PowerStruggle, InstantAction, TeamInstantAction
+map                     Load a map (enter ' x' after the name for Dx10)
+sv_serverName           Set the public display name of the server
+sv_password             Set a password on the server
+sv_cheatProtection      Enable / disable cheat protection (1 or 0)
+net_pb_sv_enable        Enable / disable PunkBuster (true or false)
+g_timeLimit             Number of minutes each round will run for (0 means no limit)
+g_minTeamLimit          Minimum number of players in each team to start a round
+g_minPlayerLimit        Minimum number of players to start a round
+g_scoreLimit            Score required to win a round (0 means no limit)
+g_scoreLead             Lead required to win a round once score limit is reached
+g_revivetime            How often players will spawn
+g_autoteambalance       Enable / disable auto team balance (1 or 0)
+g_tk_punish             Enable / disable team kill punishment (1 or 0)
+g_tk_punish_limit       Number of team kills user will be banned for
+i_restrictItems         List of items not allowed in this MP round
+ban                     Ban a player from the game by name
+ban_remove              Remove a player's ban
+ban_timeout             The length of time to ban, in minutes
+kick                    Kick a player from the game by name
+kickid                  Kick a player by id
+sv_say                  Send a message to all clients
+sv_bind                 Set the server's IP address
+sv_port                 Set the server's network port
+sv_maxplayers           Maximum number of players allowed in this game
+status                  Shows connection status
+
+
+Additional help is available by adding a '?' after a command name (eg 'map ?').
+
+======================================================================================
