@@ -717,6 +717,8 @@ protected:
 	uint8					m_raisePose;
 	uint16					m_shootSeqN;
 
+    bool                    m_bSprintAnim;
+
 private:
 
 	static TActionHandler<CWeapon>	s_actionHandler;

@@ -74,7 +74,8 @@ CWeapon::CWeapon()
 	m_raiseProbability(0.0f),
 	m_requestedFire(false),
 	m_nextShotTime(0.0f),
-	m_shootSeqN(1)
+	m_shootSeqN(1),
+    m_bSprintAnim(false)
 {
 	RegisterActions();
 }
@@ -982,6 +983,26 @@ void CWeapon::UpdateFPView(float frameTime)
 
 	UpdateWeaponRaising(frameTime);
 	UpdateWeaponLowering(frameTime);
+
+    CActor *pOwner = GetOwnerActor();	
+	bool isClient = pOwner?pOwner->IsClient():false;
+    float white[4] = {1,1,1,1};
+
+	//If actor is grabbed by player, don't let him select weapon
+	if (pOwner && isClient)
+	{
+        gEnv->pRenderer->Draw2dLabel( 100, 200, 4, white, false, "yup");
+        if ( pOwner->IsSprinting() && pOwner->GetStance() == STANCE_STAND )
+        {
+            gEnv->pRenderer->Draw2dLabel( 100, 200, 4, white, false, "sprinting");
+            PlayAction(g_pItemStrings->run_forward, 0, true);
+            m_bSprintAnim = true;
+        }
+        else if ( m_bSprintAnim )
+        {
+            PlayAction(g_pItemStrings->idle, 0, true);
+        }
+    }
 
 	UpdateCrosshair(frameTime);
 	if (m_fm)
