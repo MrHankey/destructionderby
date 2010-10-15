@@ -1001,6 +1001,7 @@ void CWeapon::UpdateFPView(float frameTime)
         else if ( m_bSprintAnim )
         {
             PlayAction(g_pItemStrings->idle, 0, true);
+            m_bSprintAnim = false;
         }
     }
 
