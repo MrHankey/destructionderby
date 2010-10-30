@@ -1908,21 +1908,20 @@ void CPlayer::StanceChanged(EStance last)
 
 	bool player(IsPlayer());
 
-/*
+
 	//TODO:move the dive impulse in the processmovement function, I want all the movement related there.
 	//and remove the client check!
-	if (pPhysEnt && player && m_stance == STANCE_PRONE && m_stats.speedFlat>1.0)
+	if (pPhysEnt && player && m_desiredStance == STANCE_PRONE && m_stats.speedFlat>1.0)
 	{
 		pe_action_impulse actionImp;
 
 		Vec3 diveDir(m_stats.velocity.GetNormalized());
 		diveDir += m_baseQuat.GetColumn2() * 0.35f;
 
-		actionImp.impulse = diveDir.GetNormalized() * m_stats.mass * 3.0f;
+		actionImp.impulse = diveDir.GetNormalized() * m_stats.mass * 5.0f;
 		actionImp.iApplyTime = 0;
 		pPhysEnt->Action(&actionImp);
 	}
-*/
 
 	CALL_PLAYER_EVENT_LISTENERS(OnStanceChanged(this, m_stance));
 	/*
@@ -5269,6 +5268,16 @@ bool CPlayer::PickUpItem(EntityId itemId, bool sound, bool ignoreOffhand)
 	if (bOK)
 	{
 		CALL_PLAYER_EVENT_LISTENERS(OnItemPickedUp(this, itemId));
+
+        IEntity *pEntity = gEnv->pSystem->GetIEntitySystem()->GetEntity(itemId);
+        if(IEntityRenderProxy* pProxy = (IEntityRenderProxy*)pEntity->GetProxy(ENTITY_PROXY_RENDER))
+	    {
+		    if(IRenderNode* pRenderNode = pProxy->GetRenderNode())
+            {
+                pRenderNode->SetRndFlags(ERF_HIDABLE, true);
+                pRenderNode->SetRndFlags(ERF_HIDDEN, true);
+            }
+	    }
 	}
 	return bOK;
 }
