@@ -1,0 +1,1 @@
+This mod is meant as a small project to add a car based destruction derby gamemode to the multiplayer of Crysis Wars.
